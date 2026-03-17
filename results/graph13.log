@@ -1,0 +1,20 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	311040000 seconds
+[runlim] space limit:		15624 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		main.py
+[runlim] argv[2]:		graph13
+[runlim] start:			Tue Mar 17 12:20:34 2026
+[runlim] main pid:		10146
+Solve first problem:
+Cannot find solution.
+Time taken: 0.78 seconds
+[runlim] end:			Tue Mar 17 12:20:35 2026
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			1.59 seconds
+[runlim] time:			0.80 seconds
+[runlim] space:			64.0 MB
+[runlim] samples:		8

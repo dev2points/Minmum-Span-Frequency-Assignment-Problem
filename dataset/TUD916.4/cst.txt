@@ -1,0 +1,5 @@
+ Objective :
+     
+ To find a solution minimizing either the number of different values used for
+the assignment of the variables or the span between the assigned frequencies.
+
