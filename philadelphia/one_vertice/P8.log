@@ -1,0 +1,573 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1200 seconds
+[runlim] space limit:		7759 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		main.py
+[runlim] argv[3]:		P8
+[runlim] start:			Wed Mar 18 15:37:19 2026
+[runlim] main pid:		43873
+Greedy UB: 543
+Greedy solution is valid.
+Trying with UB = 542...
+Span: 542 (542-1)
+Solution is valid.
+Time taken: 2.00 seconds
+Trying with UB = 541...
+Span: 541 (541-1)
+Solution is valid.
+Time taken: 8.50 seconds
+Trying with UB = 540...
+[runlim] sample:		10.0 time, 10.1 real, 327.8 MB
+Span: 540 (540-1)
+Solution is valid.
+Time taken: 12.90 seconds
+Trying with UB = 539...
+Span: 539 (539-1)
+Solution is valid.
+Time taken: 14.66 seconds
+Trying with UB = 538...
+Span: 538 (538-1)
+Solution is valid.
+Time taken: 18.05 seconds
+Trying with UB = 537...
+[runlim] sample:		20.0 time, 20.1 real, 376.4 MB
+Span: 537 (537-1)
+Solution is valid.
+Time taken: 24.13 seconds
+Trying with UB = 536...
+Span: 536 (536-1)
+Solution is valid.
+Time taken: 25.28 seconds
+Trying with UB = 535...
+Span: 535 (535-1)
+Solution is valid.
+Time taken: 26.61 seconds
+Trying with UB = 534...
+[runlim] sample:		29.9 time, 30.1 real, 347.6 MB
+Span: 534 (534-1)
+Solution is valid.
+Time taken: 38.42 seconds
+Trying with UB = 533...
+[runlim] sample:		39.9 time, 40.1 real, 355.6 MB
+Span: 533 (533-1)
+Solution is valid.
+Time taken: 49.80 seconds
+Trying with UB = 532...
+[runlim] sample:		50.0 time, 50.1 real, 355.8 MB
+Span: 532 (532-1)
+Solution is valid.
+Time taken: 54.17 seconds
+Trying with UB = 531...
+Span: 531 (531-1)
+Solution is valid.
+Time taken: 59.70 seconds
+Trying with UB = 530...
+[runlim] sample:		60.0 time, 60.1 real, 357.0 MB
+Span: 529 (529-1)
+Solution is valid.
+Time taken: 65.21 seconds
+Trying with UB = 528...
+[runlim] sample:		70.0 time, 70.1 real, 357.7 MB
+Span: 528 (528-1)
+Solution is valid.
+Time taken: 70.94 seconds
+Trying with UB = 527...
+Span: 527 (527-1)
+Solution is valid.
+Time taken: 75.81 seconds
+Trying with UB = 526...
+Span: 526 (526-1)
+Solution is valid.
+Time taken: 78.49 seconds
+Trying with UB = 525...
+Span: 525 (525-1)
+Solution is valid.
+Time taken: 79.13 seconds
+Trying with UB = 524...
+[runlim] sample:		80.0 time, 80.1 real, 357.7 MB
+Span: 524 (524-1)
+Solution is valid.
+Time taken: 80.15 seconds
+Trying with UB = 523...
+Span: 523 (523-1)
+Solution is valid.
+Time taken: 84.43 seconds
+Trying with UB = 522...
+Span: 522 (522-1)
+Solution is valid.
+Time taken: 88.31 seconds
+Trying with UB = 521...
+[runlim] sample:		90.0 time, 90.1 real, 359.3 MB
+Span: 521 (521-1)
+Solution is valid.
+Time taken: 91.89 seconds
+Trying with UB = 520...
+Span: 520 (520-1)
+Solution is valid.
+Time taken: 94.35 seconds
+Trying with UB = 519...
+Span: 519 (519-1)
+Solution is valid.
+Time taken: 94.57 seconds
+Trying with UB = 518...
+Span: 518 (518-1)
+Solution is valid.
+Time taken: 94.76 seconds
+Trying with UB = 517...
+Span: 517 (517-1)
+Solution is valid.
+Time taken: 94.99 seconds
+Trying with UB = 516...
+Span: 516 (516-1)
+Solution is valid.
+Time taken: 96.27 seconds
+Trying with UB = 515...
+Span: 515 (515-1)
+Solution is valid.
+Time taken: 97.07 seconds
+Trying with UB = 514...
+Span: 514 (514-1)
+Solution is valid.
+Time taken: 99.56 seconds
+Trying with UB = 513...
+[runlim] sample:		100.0 time, 100.1 real, 359.0 MB
+Span: 513 (513-1)
+Solution is valid.
+Time taken: 100.55 seconds
+Trying with UB = 512...
+[runlim] sample:		110.0 time, 110.1 real, 361.3 MB
+Span: 512 (512-1)
+Solution is valid.
+Time taken: 116.02 seconds
+Trying with UB = 511...
+Span: 511 (511-1)
+Solution is valid.
+Time taken: 117.60 seconds
+Trying with UB = 510...
+Span: 510 (510-1)
+Solution is valid.
+Time taken: 118.17 seconds
+Trying with UB = 509...
+[runlim] sample:		120.0 time, 120.1 real, 362.9 MB
+Span: 509 (509-1)
+Solution is valid.
+Time taken: 121.00 seconds
+Trying with UB = 508...
+Span: 508 (508-1)
+Solution is valid.
+Time taken: 125.63 seconds
+Trying with UB = 507...
+Span: 507 (507-1)
+Solution is valid.
+Time taken: 129.42 seconds
+Trying with UB = 506...
+[runlim] sample:		130.0 time, 130.1 real, 359.9 MB
+Span: 506 (506-1)
+Solution is valid.
+Time taken: 131.77 seconds
+Trying with UB = 505...
+Span: 505 (505-1)
+Solution is valid.
+Time taken: 133.14 seconds
+Trying with UB = 504...
+Span: 504 (504-1)
+Solution is valid.
+Time taken: 134.55 seconds
+Trying with UB = 503...
+Span: 503 (503-1)
+Solution is valid.
+Time taken: 138.73 seconds
+Trying with UB = 502...
+Span: 502 (502-1)
+Solution is valid.
+Time taken: 138.95 seconds
+Trying with UB = 501...
+Span: 501 (501-1)
+Solution is valid.
+Time taken: 139.55 seconds
+Trying with UB = 500...
+[runlim] sample:		140.0 time, 140.1 real, 359.8 MB
+Span: 500 (500-1)
+Solution is valid.
+Time taken: 144.30 seconds
+Trying with UB = 499...
+Span: 499 (499-1)
+Solution is valid.
+Time taken: 144.51 seconds
+Trying with UB = 498...
+Span: 498 (498-1)
+Solution is valid.
+Time taken: 148.63 seconds
+Trying with UB = 497...
+[runlim] sample:		150.0 time, 150.1 real, 361.0 MB
+Span: 497 (497-1)
+Solution is valid.
+Time taken: 153.50 seconds
+Trying with UB = 496...
+[runlim] sample:		159.9 time, 160.1 real, 305.3 MB
+Span: 496 (496-1)
+Solution is valid.
+Time taken: 160.00 seconds
+Trying with UB = 495...
+Span: 495 (495-1)
+Solution is valid.
+Time taken: 163.31 seconds
+Trying with UB = 494...
+[runlim] sample:		170.0 time, 170.1 real, 354.6 MB
+Span: 494 (494-1)
+Solution is valid.
+Time taken: 179.46 seconds
+Trying with UB = 493...
+Span: 493 (493-1)
+Solution is valid.
+Time taken: 179.68 seconds
+Trying with UB = 492...
+Span: 492 (492-1)
+Solution is valid.
+Time taken: 179.88 seconds
+Trying with UB = 491...
+[runlim] sample:		180.0 time, 180.1 real, 314.6 MB
+Span: 491 (491-1)
+Solution is valid.
+Time taken: 186.61 seconds
+Trying with UB = 490...
+[runlim] sample:		190.0 time, 190.1 real, 346.1 MB
+Span: 490 (490-1)
+Solution is valid.
+Time taken: 192.47 seconds
+Trying with UB = 489...
+Span: 489 (489-1)
+Solution is valid.
+Time taken: 199.88 seconds
+Trying with UB = 488...
+[runlim] sample:		200.0 time, 200.1 real, 351.2 MB
+Span: 487 (487-1)
+Solution is valid.
+Time taken: 200.22 seconds
+Trying with UB = 486...
+[runlim] sample:		210.0 time, 210.1 real, 346.4 MB
+Span: 486 (486-1)
+Solution is valid.
+Time taken: 217.98 seconds
+Trying with UB = 485...
+Span: 485 (485-1)
+Solution is valid.
+Time taken: 218.24 seconds
+Trying with UB = 484...
+[runlim] sample:		220.0 time, 220.1 real, 347.7 MB
+Span: 484 (484-1)
+Solution is valid.
+Time taken: 220.74 seconds
+Trying with UB = 483...
+[runlim] sample:		230.0 time, 230.1 real, 347.7 MB
+[runlim] sample:		240.0 time, 240.1 real, 349.3 MB
+Span: 483 (483-1)
+Solution is valid.
+Time taken: 244.72 seconds
+Trying with UB = 482...
+[runlim] sample:		250.0 time, 250.1 real, 316.9 MB
+Span: 482 (482-1)
+Solution is valid.
+Time taken: 251.15 seconds
+Trying with UB = 481...
+Span: 481 (481-1)
+Solution is valid.
+Time taken: 255.28 seconds
+Trying with UB = 480...
+Span: 480 (480-1)
+Solution is valid.
+Time taken: 256.79 seconds
+Trying with UB = 479...
+Span: 479 (479-1)
+Solution is valid.
+Time taken: 257.07 seconds
+Trying with UB = 478...
+Span: 478 (478-1)
+Solution is valid.
+Time taken: 257.33 seconds
+Trying with UB = 477...
+Span: 477 (477-1)
+Solution is valid.
+Time taken: 257.54 seconds
+Trying with UB = 476...
+Span: 476 (476-1)
+Solution is valid.
+Time taken: 257.77 seconds
+Trying with UB = 475...
+Span: 475 (475-1)
+Solution is valid.
+Time taken: 257.98 seconds
+Trying with UB = 474...
+Span: 474 (474-1)
+Solution is valid.
+Time taken: 259.18 seconds
+Trying with UB = 473...
+Span: 473 (473-1)
+Solution is valid.
+Time taken: 259.41 seconds
+Trying with UB = 472...
+Span: 472 (472-1)
+Solution is valid.
+Time taken: 259.63 seconds
+Trying with UB = 471...
+[runlim] sample:		260.0 time, 260.1 real, 325.8 MB
+Span: 471 (471-1)
+Solution is valid.
+Time taken: 263.49 seconds
+Trying with UB = 470...
+Span: 470 (470-1)
+Solution is valid.
+Time taken: 263.73 seconds
+Trying with UB = 469...
+[runlim] sample:		270.0 time, 270.1 real, 300.5 MB
+[runlim] sample:		280.0 time, 280.1 real, 301.9 MB
+[runlim] sample:		290.0 time, 290.1 real, 302.1 MB
+Span: 469 (469-1)
+Solution is valid.
+Time taken: 291.54 seconds
+Trying with UB = 468...
+Span: 468 (468-1)
+Solution is valid.
+Time taken: 298.11 seconds
+Trying with UB = 467...
+[runlim] sample:		300.0 time, 300.1 real, 309.0 MB
+Span: 467 (467-1)
+Solution is valid.
+Time taken: 306.73 seconds
+Trying with UB = 466...
+Span: 465 (465-1)
+Solution is valid.
+Time taken: 306.96 seconds
+Trying with UB = 464...
+Span: 464 (464-1)
+Solution is valid.
+Time taken: 309.82 seconds
+Trying with UB = 463...
+[runlim] sample:		310.0 time, 310.1 real, 317.8 MB
+Span: 463 (463-1)
+Solution is valid.
+Time taken: 310.11 seconds
+Trying with UB = 462...
+Span: 462 (462-1)
+Solution is valid.
+Time taken: 310.33 seconds
+Trying with UB = 461...
+Span: 461 (461-1)
+Solution is valid.
+Time taken: 310.53 seconds
+Trying with UB = 460...
+Span: 460 (460-1)
+Solution is valid.
+Time taken: 310.74 seconds
+Trying with UB = 459...
+Span: 459 (459-1)
+Solution is valid.
+Time taken: 310.94 seconds
+Trying with UB = 458...
+[runlim] sample:		320.0 time, 320.1 real, 316.0 MB
+[runlim] sample:		330.0 time, 330.1 real, 316.7 MB
+Span: 458 (458-1)
+Solution is valid.
+Time taken: 334.39 seconds
+Trying with UB = 457...
+Span: 457 (457-1)
+Solution is valid.
+Time taken: 339.61 seconds
+Trying with UB = 456...
+[runlim] sample:		339.9 time, 340.1 real, 320.4 MB
+Span: 456 (456-1)
+Solution is valid.
+Time taken: 346.70 seconds
+Trying with UB = 455...
+Span: 455 (455-1)
+Solution is valid.
+Time taken: 346.96 seconds
+Trying with UB = 454...
+Span: 454 (454-1)
+Solution is valid.
+Time taken: 348.77 seconds
+Trying with UB = 453...
+[runlim] sample:		350.0 time, 350.1 real, 317.9 MB
+Span: 453 (453-1)
+Solution is valid.
+Time taken: 350.54 seconds
+Trying with UB = 452...
+Span: 452 (452-1)
+Solution is valid.
+Time taken: 353.08 seconds
+Trying with UB = 451...
+[runlim] sample:		360.0 time, 360.1 real, 332.0 MB
+[runlim] sample:		370.0 time, 370.1 real, 333.3 MB
+[runlim] sample:		380.0 time, 380.1 real, 333.3 MB
+Span: 451 (451-1)
+Solution is valid.
+Time taken: 387.64 seconds
+Trying with UB = 450...
+Span: 450 (450-1)
+Solution is valid.
+Time taken: 389.18 seconds
+Trying with UB = 449...
+[runlim] sample:		390.0 time, 390.1 real, 333.6 MB
+Span: 449 (449-1)
+Solution is valid.
+Time taken: 391.07 seconds
+Trying with UB = 448...
+Span: 448 (448-1)
+Solution is valid.
+Time taken: 391.60 seconds
+Trying with UB = 447...
+Span: 447 (447-1)
+Solution is valid.
+Time taken: 398.96 seconds
+Trying with UB = 446...
+[runlim] sample:		400.0 time, 400.1 real, 335.5 MB
+Span: 446 (446-1)
+Solution is valid.
+Time taken: 400.71 seconds
+Trying with UB = 445...
+Span: 445 (445-1)
+Solution is valid.
+Time taken: 407.59 seconds
+Trying with UB = 444...
+Span: 444 (444-1)
+Solution is valid.
+Time taken: 409.37 seconds
+Trying with UB = 443...
+[runlim] sample:		409.9 time, 410.1 real, 333.4 MB
+Span: 443 (443-1)
+Solution is valid.
+Time taken: 410.95 seconds
+Trying with UB = 442...
+[runlim] sample:		419.9 time, 420.1 real, 333.5 MB
+[runlim] sample:		430.0 time, 430.1 real, 336.3 MB
+Span: 442 (442-1)
+Solution is valid.
+Time taken: 433.80 seconds
+Trying with UB = 441...
+[runlim] sample:		440.0 time, 440.1 real, 335.8 MB
+[runlim] sample:		450.0 time, 450.1 real, 338.2 MB
+[runlim] sample:		460.0 time, 460.1 real, 335.6 MB
+[runlim] sample:		470.0 time, 470.1 real, 332.9 MB
+[runlim] sample:		480.0 time, 480.1 real, 336.3 MB
+[runlim] sample:		489.9 time, 490.1 real, 337.6 MB
+[runlim] sample:		500.0 time, 500.1 real, 335.7 MB
+[runlim] sample:		510.0 time, 510.1 real, 335.7 MB
+[runlim] sample:		519.9 time, 520.1 real, 337.3 MB
+Span: 441 (441-1)
+Solution is valid.
+Time taken: 529.76 seconds
+Trying with UB = 440...
+[runlim] sample:		530.0 time, 530.1 real, 337.3 MB
+[runlim] sample:		540.0 time, 540.1 real, 337.6 MB
+[runlim] sample:		550.0 time, 550.1 real, 337.5 MB
+[runlim] sample:		560.0 time, 560.1 real, 337.4 MB
+[runlim] sample:		570.0 time, 570.1 real, 341.9 MB
+[runlim] sample:		580.0 time, 580.1 real, 340.1 MB
+[runlim] sample:		590.0 time, 590.1 real, 336.6 MB
+[runlim] sample:		600.0 time, 600.1 real, 336.6 MB
+[runlim] sample:		610.0 time, 610.1 real, 338.3 MB
+[runlim] sample:		620.0 time, 620.1 real, 339.0 MB
+[runlim] sample:		630.0 time, 630.1 real, 339.0 MB
+Span: 440 (440-1)
+Solution is valid.
+Time taken: 638.52 seconds
+Trying with UB = 439...
+[runlim] sample:		640.0 time, 640.1 real, 340.0 MB
+[runlim] sample:		649.9 time, 650.1 real, 340.3 MB
+Span: 439 (439-1)
+Solution is valid.
+Time taken: 650.18 seconds
+Trying with UB = 438...
+Span: 438 (438-1)
+Solution is valid.
+Time taken: 657.69 seconds
+Trying with UB = 437...
+[runlim] sample:		660.0 time, 660.1 real, 341.4 MB
+[runlim] sample:		670.0 time, 670.1 real, 338.2 MB
+[runlim] sample:		679.9 time, 680.1 real, 338.2 MB
+[runlim] sample:		690.0 time, 690.1 real, 340.8 MB
+[runlim] sample:		700.0 time, 700.1 real, 339.3 MB
+[runlim] sample:		709.9 time, 710.1 real, 339.3 MB
+[runlim] sample:		720.0 time, 720.1 real, 336.7 MB
+[runlim] sample:		730.0 time, 730.1 real, 336.7 MB
+[runlim] sample:		740.0 time, 740.1 real, 339.1 MB
+[runlim] sample:		749.9 time, 750.1 real, 340.2 MB
+[runlim] sample:		760.0 time, 760.1 real, 340.2 MB
+Span: 437 (437-1)
+Solution is valid.
+Time taken: 765.08 seconds
+Trying with UB = 436...
+[runlim] sample:		770.0 time, 770.1 real, 340.5 MB
+[runlim] sample:		779.9 time, 780.1 real, 340.7 MB
+[runlim] sample:		790.0 time, 790.1 real, 339.7 MB
+[runlim] sample:		800.0 time, 800.1 real, 340.0 MB
+[runlim] sample:		810.0 time, 810.1 real, 341.4 MB
+[runlim] sample:		820.0 time, 820.1 real, 341.4 MB
+[runlim] sample:		830.0 time, 830.1 real, 337.5 MB
+[runlim] sample:		839.9 time, 840.1 real, 340.1 MB
+[runlim] sample:		850.0 time, 850.1 real, 340.1 MB
+[runlim] sample:		860.0 time, 860.1 real, 341.3 MB
+Span: 436 (436-1)
+Solution is valid.
+Time taken: 862.71 seconds
+Trying with UB = 435...
+Span: 435 (435-1)
+Solution is valid.
+Time taken: 867.85 seconds
+Trying with UB = 434...
+[runlim] sample:		870.0 time, 870.1 real, 341.4 MB
+[runlim] sample:		879.9 time, 880.1 real, 338.5 MB
+[runlim] sample:		890.0 time, 890.1 real, 340.6 MB
+[runlim] sample:		900.0 time, 900.1 real, 341.7 MB
+[runlim] sample:		909.9 time, 910.1 real, 341.7 MB
+[runlim] sample:		920.0 time, 920.1 real, 343.7 MB
+[runlim] sample:		930.0 time, 930.1 real, 341.0 MB
+[runlim] sample:		939.9 time, 940.1 real, 341.0 MB
+[runlim] sample:		950.0 time, 950.1 real, 342.0 MB
+[runlim] sample:		960.0 time, 960.1 real, 342.0 MB
+[runlim] sample:		969.9 time, 970.1 real, 342.1 MB
+[runlim] sample:		980.0 time, 980.1 real, 342.1 MB
+Span: 434 (434-1)
+Solution is valid.
+Time taken: 983.12 seconds
+Trying with UB = 433...
+[runlim] sample:		990.0 time, 990.1 real, 344.9 MB
+[runlim] sample:		999.9 time, 1000.1 real, 345.7 MB
+[runlim] sample:		1009.9 time, 1010.1 real, 345.7 MB
+[runlim] sample:		1020.0 time, 1020.1 real, 341.0 MB
+[runlim] sample:		1030.0 time, 1030.1 real, 341.0 MB
+[runlim] sample:		1039.9 time, 1040.1 real, 341.0 MB
+[runlim] sample:		1050.0 time, 1050.1 real, 337.2 MB
+[runlim] sample:		1059.9 time, 1060.1 real, 341.4 MB
+[runlim] sample:		1069.9 time, 1070.1 real, 341.4 MB
+[runlim] sample:		1080.0 time, 1080.1 real, 341.7 MB
+[runlim] sample:		1090.0 time, 1090.1 real, 341.7 MB
+Span: 433 (433-1)
+Solution is valid.
+Time taken: 1095.12 seconds
+Trying with UB = 432...
+Span: 432 (432-1)
+Solution is valid.
+Time taken: 1095.38 seconds
+Trying with UB = 431...
+[runlim] sample:		1099.9 time, 1100.1 real, 347.0 MB
+[runlim] sample:		1110.0 time, 1110.1 real, 346.0 MB
+[runlim] sample:		1120.0 time, 1120.1 real, 397.0 MB
+[runlim] sample:		1129.9 time, 1130.1 real, 342.4 MB
+[runlim] sample:		1139.9 time, 1140.1 real, 342.8 MB
+[runlim] sample:		1150.0 time, 1150.1 real, 342.9 MB
+[runlim] sample:		1160.0 time, 1160.1 real, 342.9 MB
+[runlim] sample:		1169.9 time, 1170.1 real, 342.9 MB
+[runlim] sample:		1180.0 time, 1180.1 real, 343.3 MB
+[runlim] sample:		1190.0 time, 1190.1 real, 343.3 MB
+[runlim] sample:		1199.9 time, 1200.1 real, 344.1 MB
+[runlim] end:			Wed Mar 18 15:57:19 2026
+[runlim] status:		out of time
+[runlim] result:		2
+[runlim] children:		0
+[runlim] real:			1200.10 seconds
+[runlim] time:			1199.93 seconds
+[runlim] space:			445.1 MB
+[runlim] samples:		12000
