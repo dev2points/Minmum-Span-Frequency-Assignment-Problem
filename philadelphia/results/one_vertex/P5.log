@@ -1,0 +1,102 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	600 seconds
+[runlim] space limit:		7759 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		one_vertex.py
+[runlim] argv[3]:		P5
+[runlim] start:			Thu Mar 19 13:33:19 2026
+[runlim] main pid:		2695
+[runlim] sample:		9.8 time, 10.1 real, 17.7 MB
+Greedy span: 2177 (2178-1)
+Greedy solution is valid.
+--------------------------------
+Trying with UB = 2177...
+[runlim] sample:		19.8 time, 20.1 real, 933.7 MB
+[runlim] sample:		29.9 time, 30.1 real, 966.0 MB
+[runlim] sample:		39.8 time, 40.1 real, 1032.8 MB
+[runlim] sample:		49.8 time, 50.1 real, 964.2 MB
+[runlim] sample:		59.8 time, 60.1 real, 895.9 MB
+[runlim] sample:		69.8 time, 70.1 real, 887.0 MB
+[runlim] sample:		79.7 time, 80.1 real, 909.3 MB
+[runlim] sample:		89.8 time, 90.1 real, 909.2 MB
+[runlim] sample:		99.8 time, 100.1 real, 910.9 MB
+[runlim] sample:		109.7 time, 110.1 real, 906.0 MB
+[runlim] sample:		119.7 time, 120.1 real, 925.8 MB
+[runlim] sample:		129.8 time, 130.1 real, 922.9 MB
+[runlim] sample:		139.6 time, 140.1 real, 922.3 MB
+[runlim] sample:		149.6 time, 150.1 real, 923.8 MB
+[runlim] sample:		159.7 time, 160.1 real, 924.3 MB
+[runlim] sample:		169.6 time, 170.1 real, 924.6 MB
+[runlim] sample:		179.6 time, 180.1 real, 925.1 MB
+[runlim] sample:		189.6 time, 190.1 real, 954.3 MB
+[runlim] sample:		199.6 time, 200.1 real, 927.3 MB
+[runlim] sample:		209.5 time, 210.1 real, 943.1 MB
+[runlim] sample:		219.6 time, 220.1 real, 1079.4 MB
+[runlim] sample:		229.7 time, 230.1 real, 954.1 MB
+[runlim] sample:		239.5 time, 240.1 real, 953.9 MB
+[runlim] sample:		249.5 time, 250.1 real, 953.3 MB
+[runlim] sample:		259.6 time, 260.1 real, 955.7 MB
+[runlim] sample:		269.5 time, 270.1 real, 924.3 MB
+[runlim] sample:		279.5 time, 280.1 real, 925.8 MB
+[runlim] sample:		289.5 time, 290.1 real, 926.5 MB
+[runlim] sample:		299.5 time, 300.1 real, 952.5 MB
+[runlim] sample:		309.4 time, 310.1 real, 949.6 MB
+[runlim] sample:		319.5 time, 320.1 real, 921.0 MB
+[runlim] sample:		329.5 time, 330.1 real, 921.7 MB
+[runlim] sample:		339.4 time, 340.1 real, 946.5 MB
+[runlim] sample:		349.4 time, 350.1 real, 920.6 MB
+[runlim] sample:		359.5 time, 360.1 real, 920.6 MB
+[runlim] sample:		369.4 time, 370.1 real, 922.2 MB
+[runlim] sample:		379.4 time, 380.1 real, 922.8 MB
+[runlim] sample:		389.5 time, 390.1 real, 958.9 MB
+[runlim] sample:		399.4 time, 400.1 real, 1010.8 MB
+[runlim] sample:		409.4 time, 410.1 real, 924.3 MB
+[runlim] sample:		419.4 time, 420.1 real, 1069.6 MB
+[runlim] sample:		429.4 time, 430.1 real, 923.2 MB
+[runlim] sample:		439.3 time, 440.1 real, 1056.6 MB
+Span: 2175 (2177-2)
+Time taken: 448.62s
+Solution is valid.
+--------------------------------
+Trying with UB = 2175...
+[runlim] sample:		449.4 time, 450.1 real, 950.6 MB
+[runlim] sample:		459.4 time, 460.1 real, 948.6 MB
+Span: 2173 (2175-2)
+Time taken: 466.50s
+Solution is valid.
+--------------------------------
+Trying with UB = 2173...
+[runlim] sample:		469.3 time, 470.1 real, 1091.3 MB
+[runlim] sample:		479.4 time, 480.1 real, 949.8 MB
+Span: 2171 (2173-2)
+Time taken: 488.11s
+Solution is valid.
+--------------------------------
+Trying with UB = 2171...
+[runlim] sample:		489.4 time, 490.1 real, 949.6 MB
+[runlim] sample:		499.3 time, 500.1 real, 949.4 MB
+[runlim] sample:		509.3 time, 510.1 real, 954.2 MB
+[runlim] sample:		519.4 time, 520.1 real, 951.7 MB
+[runlim] sample:		529.3 time, 530.1 real, 951.7 MB
+[runlim] sample:		539.3 time, 540.1 real, 953.3 MB
+[runlim] sample:		549.4 time, 550.1 real, 961.7 MB
+Span: 2170 (2171-1)
+Time taken: 554.14s
+Solution is valid.
+--------------------------------
+Trying with UB = 2170...
+[runlim] sample:		559.3 time, 560.1 real, 954.4 MB
+[runlim] sample:		569.3 time, 570.1 real, 956.2 MB
+[runlim] sample:		579.3 time, 580.1 real, 961.5 MB
+[runlim] sample:		589.4 time, 590.1 real, 958.4 MB
+[runlim] sample:		599.2 time, 600.1 real, 959.9 MB
+[runlim] end:			Thu Mar 19 13:43:19 2026
+[runlim] status:		out of time
+[runlim] result:		2
+[runlim] children:		0
+[runlim] real:			600.15 seconds
+[runlim] time:			599.25 seconds
+[runlim] space:			1195.9 MB
+[runlim] samples:		6000

@@ -1,0 +1,26 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	600 seconds
+[runlim] space limit:		7759 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		one_vertex.py
+[runlim] argv[3]:		P19
+[runlim] start:			Thu Mar 19 14:44:08 2026
+[runlim] main pid:		2784
+Greedy span: 528 (529-1)
+Greedy solution is valid.
+--------------------------------
+Trying with UB = 528...
+[runlim] sample:		9.9 time, 10.6 real, 225.1 MB
+No solution found.
+Optimal span found: 528
+Time taken: 10.92s
+[runlim] end:			Thu Mar 19 14:44:19 2026
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			11.62 seconds
+[runlim] time:			10.82 seconds
+[runlim] space:			241.7 MB
+[runlim] samples:		109

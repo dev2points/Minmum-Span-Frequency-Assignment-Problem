@@ -268,7 +268,7 @@ if __name__ == "__main__":
     f, top = create_frequency_constraints(solver, num_cells, num_frequencies, x, top)
 
 
-    solver.add_clause([f[1]])
+    # solver.add_clause([f[1]])
     while True:
         print("--------------------------------")
         print(f"Trying with num_frequencies = {UB}...")
