@@ -430,13 +430,13 @@ if __name__ == "__main__":
     start_time = time.perf_counter()
 
     dataset = sys.argv[1]
-    file_path = f"dataset/{dataset}.txt"
+    file_path = f"{dataset}.txt"
     print(f"Reading dataset from {file_path}...")
 
     num_cells, demand_vector, matrix = read_dataset(file_path)
     # max_fre, min_fre, greedy_assignment = greedy(num_cells, demand_vector, matrix)
     # max_fre, min_fre, greedy_assignment = greedy_plus(num_cells, demand_vector, matrix)
-    max_fre, min_fre, greedy_assignment = multi_greedy(num_cells, demand_vector, matrix, num_iterations=100)
+    max_fre, min_fre, greedy_assignment = greedy(num_cells, demand_vector, matrix)
     print(f"Greedy span: {max_fre - min_fre} ({max_fre}-{min_fre})")
     if verify_solution(greedy_assignment, demand_vector, matrix):
         print("Greedy solution is valid.")
@@ -454,7 +454,7 @@ if __name__ == "__main__":
     # add exactly k constraints cuối cùng vì không trả về top_id
     add_exactly_k_constraints(solver, num_cells, UB, x, demand_vector, top)
     # add_exactly_k_nsc(solver, num_cells, UB, x, demand_vector, top)
-    # symmetry_breaking(solver, num_cells, x, demand_vector, matrix)
+    symmetry_breaking(solver, num_cells, x, demand_vector, matrix)
 
     solver.add_clause([f[1]])
     while True:
