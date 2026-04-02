@@ -1,0 +1,23 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	600 seconds
+[runlim] space limit:		7759 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		one_vertex.py
+[runlim] argv[3]:		P17
+[runlim] start:			Thu Apr  2 13:05:30 2026
+[runlim] main pid:		42725
+Reading dataset from P17.txt...
+Greedy span: 72 (73-1)
+Greedy solution is valid.
+--------------------------------
+Trying with UB = 72...
+[runlim] sample:		10.0 time, 10.1 real, 41.5 MB
+[runlim] sample:		20.0 time, 20.1 real, 42.7 MB
+[runlim] sample:		29.9 time, 30.1 real, 51.6 MB
+[runlim] sample:		40.0 time, 40.1 real, 55.9 MB
+[runlim] sample:		50.0 time, 50.1 real, 56.4 MB
+[runlim] sample:		59.9 time, 60.1 real, 58.8 MB
+[runlim] sample:		70.0 time, 70.1 real, 61.0 MB
+[runlim] sample:		80.0 time, 80.1 real, 62.7 MB

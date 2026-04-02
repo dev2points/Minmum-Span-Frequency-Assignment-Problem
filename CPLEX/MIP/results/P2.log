@@ -1,0 +1,222 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	600 seconds
+[runlim] space limit:		7759 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		mip.py
+[runlim] argv[3]:		P2
+[runlim] start:			Sun Mar 22 23:40:04 2026
+[runlim] main pid:		29901
+Reading dataset from data/P2.txt...
+Greedy span: 542 (543-1)
+--------------------------------
+Starting CPLEX solver with Initial UB = 543...
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Read_DataCheck                          1
+Legacy callback                                  i
+Found incumbent of value 540.000000 after 0.01 sec. (9.59 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 123042 rows and 0 columns.
+MIP Presolve modified 24356 coefficients.
+Reduced MIP has 35781 rows, 11404 columns, and 180984 nonzeros.
+Reduced MIP has 11403 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.25 sec. (258.60 ticks)
+Probing time = 0.26 sec. (39.57 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 35781 rows, 11404 columns, and 180984 nonzeros.
+Reduced MIP has 11403 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.13 sec. (150.66 ticks)
+Probing time = 0.21 sec. (35.89 ticks)
+Clique table members: 24356.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 12 threads.
+[runlim] sample:		24.4 time, 10.2 real, 525.8 MB
+Root relaxation solution time = 3.22 sec. (2043.86 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          540.0000        0.0000           100.00%
+      0     0       37.2102  3299      540.0000       37.2102       19   93.11%
+[runlim] sample:		43.0 time, 20.2 real, 569.7 MB
+[runlim] sample:		62.6 time, 29.4 real, 569.8 MB
+[runlim] sample:		82.1 time, 39.4 real, 569.8 MB
+[runlim] sample:		101.6 time, 49.4 real, 571.2 MB
+[runlim] sample:		121.1 time, 59.4 real, 572.1 MB
+[runlim] sample:		140.6 time, 68.5 real, 572.8 MB
+      0     0       40.5817  3001      540.0000    Cuts: 2197   110222   92.48%
+[runlim] sample:		160.0 time, 78.5 real, 570.9 MB
+[runlim] sample:		179.5 time, 88.5 real, 574.7 MB
+      0     0       41.0000  3012      540.0000    Cuts: 2370   126466   92.41%
+[runlim] sample:		199.0 time, 97.7 real, 580.0 MB
+[runlim] sample:		218.4 time, 107.7 real, 581.0 MB
+      0     0       59.3875  3191      540.0000    Cuts: 4434   155485   89.00%
+*     0+    0                          539.0000       59.3875            88.98%
+*     0+    0                          505.0000       59.3875            88.24%
+[runlim] sample:		238.0 time, 117.7 real, 583.8 MB
+      0     0  -1.00000e+75     0      505.0000       59.3875   155485   88.24%
+[runlim] sample:		257.5 time, 126.8 real, 590.1 MB
+      0     0       61.1144  2872      505.0000     Cuts: 961   172187   87.90%
+[runlim] sample:		277.0 time, 136.8 real, 592.4 MB
+      0     0       61.1558  2827      505.0000     Cuts: 709   187516   87.89%
+Detecting symmetries...
+[runlim] sample:		296.4 time, 146.8 real, 593.5 MB
+[runlim] sample:		315.9 time, 155.9 real, 593.5 MB
+      0     0       61.1739  2824      505.0000     Cuts: 595   205072   87.89%
+[runlim] sample:		335.4 time, 165.9 real, 594.6 MB
+      0     0       61.1932  2670      505.0000     Cuts: 488   220994   87.88%
+[runlim] sample:		354.8 time, 175.9 real, 594.9 MB
+      0     0       61.1934  2686      505.0000     Cuts: 336   236022   87.88%
+[runlim] sample:		374.3 time, 185.9 real, 614.4 MB
+      0     0       61.2114  2410      505.0000      Cuts: 98   236672   87.88%
+      0     0       61.2114  2584      505.0000     Cuts: 660   246951   87.88%
+[runlim] sample:		393.8 time, 195.1 real, 617.5 MB
+[runlim] sample:		413.2 time, 205.1 real, 596.4 MB
+Heuristic still looking.
+*     0+    0                          503.0000       61.2114            87.83%
+*     0+    0                          480.0000       61.2114            87.25%
+      0     0  -1.00000e+75     0      480.0000       61.2114   246951   87.25%
+Detecting symmetries...
+      0     2       62.5361  2345      480.0000       61.2114   246951   87.25%
+Elapsed time = 206.00 sec. (224328.99 ticks, tree = 0.02 MB, solutions = 5)
+[runlim] sample:		434.1 time, 215.1 real, 664.1 MB
+[runlim] sample:		453.5 time, 224.2 real, 664.1 MB
+[runlim] sample:		473.0 time, 234.2 real, 664.1 MB
+      1     3       86.0000  2099      480.0000       62.5361   281828   86.97%
+[runlim] sample:		498.3 time, 244.2 real, 666.0 MB
+[runlim] sample:		527.6 time, 253.3 real, 666.0 MB
+*     2+    1                          479.0000       62.5361            86.94%
+*     2+    1                          473.0000       62.5361            86.78%
+      2     4      163.0000  1771      473.0000       62.5361   304383   86.78%
+[runlim] sample:		556.8 time, 263.4 real, 682.6 MB
+[runlim] sample:		595.6 time, 273.4 real, 689.3 MB
+      3     5      339.0000  1404      473.0000       62.5361   317838   86.78%
+[runlim] sample:		634.8 time, 282.5 real, 715.7 MB
+      4     6      339.0000  1326      473.0000       62.5361   318460   86.78%
+      5     7      339.0000  1289      473.0000       62.5361   319094   86.78%
+      6     8      339.0000  1311      473.0000       62.5361   319585   86.78%
+      7     9      407.0000  1319      473.0000       62.5361   319887   86.78%
+[runlim] sample:		712.5 time, 292.5 real, 883.2 MB
+      8    10      407.0000  1244      473.0000       62.5361   320174   86.78%
+     10    12      407.0000  1117      473.0000       62.5361   320823   86.78%
+[runlim] sample:		824.0 time, 302.5 real, 963.5 MB
+     18    20      407.0000   955      473.0000       62.5361   323420   86.78%
+Elapsed time = 303.80 sec. (282298.01 ticks, tree = 0.07 MB, solutions = 5)
+     20     3       63.2455  2450      473.0000       62.5361   276063   86.78%
+[runlim] sample:		938.2 time, 311.6 real, 964.0 MB
+     21    22      407.0000   926      473.0000       62.5361   323815   86.78%
+[runlim] sample:		1052.8 time, 321.6 real, 964.5 MB
+     38    39      417.0000   745      473.0000       62.5361   326560   86.78%
+[runlim] sample:		1165.2 time, 331.6 real, 969.8 MB
+     48    49      407.0000   554      473.0000       63.2455   357979   86.63%
+[runlim] sample:		1277.8 time, 341.6 real, 984.3 MB
+     58    59      443.0000   387      473.0000       63.2455   360206   86.63%
+     78    76      407.0000   367      473.0000       63.2455   363498   86.63%
+[runlim] sample:		1392.9 time, 350.6 real, 994.2 MB
+*    86+   11                          469.0000       63.2455            86.51%
+     86    83      440.0000   380      469.0000       63.2455   364695   86.51%
+*    96+   11                          464.0000       63.2455            86.37%
+    106    21      123.0000  1573      464.0000       63.2455   357633   86.37%
+*   107+   11                          462.0000       63.2455            86.31%
+[runlim] sample:		1506.3 time, 360.6 real, 1024.6 MB
+*   107+   11                          459.0000       63.2455            86.22%
+*   109+   11                          455.0000       63.2455            86.10%
+*   110+   11                          454.0000       63.2455            86.07%
+    118   112      438.0000   290      454.0000       63.2455   368946   86.07%
+*   119+   11                          453.0000       63.2455            86.04%
+*   119+   11                          452.0000       63.2455            86.01%
+*   120+   11                          451.0000       63.2455            85.98%
+    120   113      407.0000   295      451.0000       63.2455   368985   85.98%
+Elapsed time = 362.35 sec. (292619.35 ticks, tree = 0.88 MB, solutions = 10)
+[runlim] sample:		1619.2 time, 370.6 real, 1071.6 MB
+*   126+   11                          448.0000       63.2455            85.88%
+    130   128      407.0000   240      448.0000       63.2455   379004   85.88%
+[runlim] sample:		1733.5 time, 379.8 real, 1084.3 MB
+*   140+   11                          446.0000       63.2455            85.82%
+    144   140      434.0000   184      446.0000       63.2455   381547   85.82%
+[runlim] sample:		1847.8 time, 389.8 real, 1093.7 MB
+*   160+   11                          445.0000       63.2455            85.79%
+*   160+   11                          443.0000       63.2455            85.72%
+    160   156      451.0000   178      443.0000       63.2455   383931   85.72%
+[runlim] sample:		1961.7 time, 399.8 real, 1099.4 MB
+    179   175      407.0000   147      443.0000       63.2455   386754   85.72%
+[runlim] sample:		2075.9 time, 409.8 real, 1117.3 MB
+    190   184      407.0000   143      443.0000       63.2455   388596   85.72%
+[runlim] sample:		2188.6 time, 419.8 real, 1126.0 MB
+    200   194      407.0000   131      443.0000       63.2455   390639   85.72%
+    210   202      407.0000   157      443.0000       63.2455   392237   85.72%
+[runlim] sample:		2300.8 time, 428.5 real, 1126.0 MB
+    218   210      407.0000   148      443.0000       63.2455   396673   85.72%
+[runlim] sample:		2411.3 time, 438.5 real, 1126.0 MB
+    220   212      407.0000   170      443.0000       63.2455   397813   85.72%
+    240   224      444.0000    61      443.0000       63.2455   402764   85.72%
+Elapsed time = 436.79 sec. (305062.87 ticks, tree = 1.77 MB, solutions = 21)
+    242   223      407.0000   320      443.0000       63.2455   402846   85.72%
+[runlim] sample:		2516.2 time, 448.5 real, 1124.3 MB
+    251   215      454.0000    53      443.0000       63.2455   410929   85.72%
+[runlim] sample:		2625.5 time, 457.6 real, 1129.4 MB
+    263   211      454.0000     0      443.0000       63.2455   420634   85.72%
+    269   182      407.0000   803      443.0000       63.2455   432932   85.72%
+    279   191      407.0000   590      443.0000       63.2455   435507   85.72%
+[runlim] sample:		2715.6 time, 467.6 real, 1131.5 MB
+    290   184      437.0000  1164      443.0000       63.2455   438469   85.72%
+    309   210      407.0000   499      443.0000       63.2455   449540   85.72%
+[runlim] sample:		2802.3 time, 477.6 real, 1132.3 MB
+    313   191      416.0000  1002      443.0000       63.2455   442075   85.72%
+    333   209      339.0000  1244      443.0000       63.2455   448886   85.72%
+[runlim] sample:		2892.3 time, 486.8 real, 1132.5 MB
+    349   222      416.0000   857      443.0000       63.2455   454157   85.72%
+Elapsed time = 480.25 sec. (315758.36 ticks, tree = 1.39 MB, solutions = 73)
+    387   224      407.0000  1192      443.0000       63.2455   460816   85.72%
+    413   255      421.0000   411      443.0000       63.2455   474853   85.72%
+[runlim] sample:		2974.7 time, 496.8 real, 1131.3 MB
+    440   309      421.0000   521      443.0000       63.2455   495945   85.72%
+    461   277      417.0000  1081      443.0000       63.2455   485459   85.72%
+[runlim] sample:		3075.9 time, 506.8 real, 1131.7 MB
+    481   358      422.0000   564      443.0000       63.2455   510207   85.72%
+    507   326      421.0000   481      443.0000       63.2455   502199   85.72%
+[runlim] sample:		3180.0 time, 515.9 real, 1131.7 MB
+    537   340      434.0000   432      443.0000       63.2455   504905   85.72%
+    574   442      422.0000   469      443.0000       63.2455   543956   85.72%
+[runlim] sample:		3271.0 time, 525.9 real, 1131.8 MB
+*   593+  398                          442.0000       63.2455            85.69%
+    593   452      422.0000   431      442.0000       63.2455   547725   85.69%
+    620   407      419.0000   994      442.0000       63.2455   532820   85.69%
+Elapsed time = 528.49 sec. (325697.42 ticks, tree = 2.54 MB, solutions = 93)
+[runlim] sample:		3367.2 time, 535.9 real, 1131.9 MB
+*   625+  457                          441.0000       63.2455            85.66%
+    658   418      419.0000   881      441.0000       63.2455   536416   85.66%
+*   683+  462                          440.0000       63.2455            85.63%
+    702   508      419.0000   724      440.0000       63.2455   565517   85.63%
+[runlim] sample:		3453.8 time, 545.9 real, 1133.1 MB
+    715   547      439.0000   260      440.0000       63.2455   581686   85.63%
+*   717+  553                          439.0000       63.2455            85.59%
+*   746+  557                          438.0000       63.2455            85.56%
+    747   567      439.0000   200      438.0000       63.2455   585520   85.56%
+[runlim] sample:		3545.0 time, 555.0 real, 1134.4 MB
+    783   560      123.0000  1396      438.0000       63.2455   591124   85.56%
+*   787+  559                          437.0000       63.2455            85.53%
+    800   484      417.0000   635      437.0000       63.2455   558334   85.53%
+*   801+  560                          436.0000       63.2455            85.49%
+[runlim] sample:		3637.7 time, 565.0 real, 1135.4 MB
+    816   577      434.0000    47      436.0000       63.2455   628584   85.49%
+[runlim] sample:		3739.6 time, 575.0 real, 1136.7 MB
+    825   574      417.0000   610      436.0000       63.2455   625332   85.49%
+    838   575      123.0000  1331      436.0000       63.2455   632795   85.49%
+[runlim] sample:		3836.2 time, 584.1 real, 1137.3 MB
+    844   587      339.0000  1097      436.0000       63.2455   640179   85.49%
+Elapsed time = 580.43 sec. (336185.90 ticks, tree = 3.81 MB, solutions = 112)
+    853   592      377.0000  1076      436.0000       63.2455   641571   85.49%
+[runlim] sample:		3941.1 time, 594.1 real, 1137.4 MB
+    866   613      407.0000  1168      436.0000       63.2455   657775   85.49%
+[runlim] end:			Sun Mar 22 23:50:04 2026
+[runlim] status:		out of time
+[runlim] result:		2
+[runlim] children:		0
+[runlim] real:			600.12 seconds
+[runlim] time:			4006.10 seconds
+[runlim] space:			1138.4 MB
+[runlim] samples:		6159

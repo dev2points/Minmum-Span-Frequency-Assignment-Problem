@@ -1,0 +1,60 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	600 seconds
+[runlim] space limit:		7759 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		gurobi.py
+[runlim] argv[3]:		P8
+[runlim] start:			Sun Mar 22 23:07:37 2026
+[runlim] main pid:		18043
+Reading dataset from data/P8.txt...
+Greedy span: 415 (416-1)
+Greedy solution is valid.
+--------------------------------
+Starting Gurobi solver with Initial UB = 416...
+*** [Callback at 0.03s] New Incumbent Found! Span: 415 (Max Freq: 416)
+[runlim] sample:		9.8 time, 9.9 real, 119.5 MB
+[runlim] sample:		19.6 time, 19.9 real, 181.5 MB
+*** [Callback at 18.09s] New Incumbent Found! Span: 412 (Max Freq: 413)
+*** [Callback at 19.02s] New Incumbent Found! Span: 411 (Max Freq: 412)
+[runlim] sample:		58.7 time, 29.9 real, 379.0 MB
+[runlim] sample:		97.8 time, 39.1 real, 386.5 MB
+[runlim] sample:		136.8 time, 49.1 real, 413.9 MB
+[runlim] sample:		175.8 time, 59.1 real, 440.9 MB
+[runlim] sample:		214.9 time, 68.3 real, 443.2 MB
+[runlim] sample:		254.0 time, 78.3 real, 447.3 MB
+*** [Callback at 83.66s] New Incumbent Found! Span: 403 (Max Freq: 404)
+*** [Callback at 83.66s] New Incumbent Found! Span: 382 (Max Freq: 383)
+*** [Callback at 83.67s] New Incumbent Found! Span: 381 (Max Freq: 382)
+*** [Callback at 83.67s] New Incumbent Found! Span: 380 (Max Freq: 381)
+*** [Callback at 83.68s] New Incumbent Found! Span: 379 (Max Freq: 380)
+*** [Callback at 83.68s] New Incumbent Found! Span: 345 (Max Freq: 346)
+*** [Callback at 83.69s] New Incumbent Found! Span: 342 (Max Freq: 343)
+*** [Callback at 83.69s] New Incumbent Found! Span: 341 (Max Freq: 342)
+*** [Callback at 83.70s] New Incumbent Found! Span: 340 (Max Freq: 341)
+*** [Callback at 83.70s] New Incumbent Found! Span: 339 (Max Freq: 340)
+*** [Callback at 83.71s] New Incumbent Found! Span: 338 (Max Freq: 339)
+*** [Callback at 83.71s] New Incumbent Found! Span: 337 (Max Freq: 338)
+*** [Callback at 83.72s] New Incumbent Found! Span: 334 (Max Freq: 335)
+*** [Callback at 83.72s] New Incumbent Found! Span: 330 (Max Freq: 331)
+*** [Callback at 83.73s] New Incumbent Found! Span: 329 (Max Freq: 330)
+*** [Callback at 83.73s] New Incumbent Found! Span: 327 (Max Freq: 328)
+*** [Callback at 86.07s] New Incumbent Found! Span: 320 (Max Freq: 321)
+*** [Callback at 86.07s] New Incumbent Found! Span: 315 (Max Freq: 316)
+*** [Callback at 86.08s] New Incumbent Found! Span: 311 (Max Freq: 312)
+*** [Callback at 86.08s] New Incumbent Found! Span: 310 (Max Freq: 311)
+*** [Callback at 86.09s] New Incumbent Found! Span: 309 (Max Freq: 310)
+*** [Callback at 86.09s] New Incumbent Found! Span: 308 (Max Freq: 309)
+--------------------------------
+Optimal span found: 308 (309-1)
+Total time taken: 89.76s
+Gurobi solution is valid.
+[runlim] end:			Sun Mar 22 23:09:05 2026
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			88.15 seconds
+[runlim] time:			289.56 seconds
+[runlim] space:			472.1 MB
+[runlim] samples:		898

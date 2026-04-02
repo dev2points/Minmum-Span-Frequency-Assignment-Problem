@@ -1,0 +1,121 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	600 seconds
+[runlim] space limit:		7759 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		one_vertex.py
+[runlim] argv[3]:		P20
+[runlim] start:			Thu Apr  2 13:35:02 2026
+[runlim] main pid:		3955
+Reading dataset from P20.txt...
+Greedy span: 89 (90-1)
+Greedy solution is valid.
+--------------------------------
+Trying with UB = 89...
+Span: 88 (89-1)
+Time taken: 0.73s
+Solution is valid.
+--------------------------------
+Trying with UB = 88...
+Span: 87 (88-1)
+Time taken: 2.19s
+Solution is valid.
+--------------------------------
+Trying with UB = 87...
+Span: 86 (87-1)
+Time taken: 2.96s
+Solution is valid.
+--------------------------------
+Trying with UB = 86...
+Span: 85 (86-1)
+Time taken: 3.33s
+Solution is valid.
+--------------------------------
+Trying with UB = 85...
+Span: 84 (85-1)
+Time taken: 3.87s
+Solution is valid.
+--------------------------------
+Trying with UB = 84...
+Span: 83 (84-1)
+Time taken: 3.99s
+Solution is valid.
+--------------------------------
+Trying with UB = 83...
+Span: 82 (83-1)
+Time taken: 4.13s
+Solution is valid.
+--------------------------------
+Trying with UB = 82...
+Span: 81 (82-1)
+Time taken: 4.25s
+Solution is valid.
+--------------------------------
+Trying with UB = 81...
+Span: 80 (81-1)
+Time taken: 4.34s
+Solution is valid.
+--------------------------------
+Trying with UB = 80...
+Span: 79 (80-1)
+Time taken: 4.45s
+Solution is valid.
+--------------------------------
+Trying with UB = 79...
+Span: 78 (79-1)
+Time taken: 4.53s
+Solution is valid.
+--------------------------------
+Trying with UB = 78...
+Span: 77 (78-1)
+Time taken: 4.58s
+Solution is valid.
+--------------------------------
+Trying with UB = 77...
+Span: 76 (77-1)
+Time taken: 4.69s
+Solution is valid.
+--------------------------------
+Trying with UB = 76...
+Span: 75 (76-1)
+Time taken: 4.77s
+Solution is valid.
+--------------------------------
+Trying with UB = 75...
+Span: 74 (75-1)
+Time taken: 4.80s
+Solution is valid.
+--------------------------------
+Trying with UB = 74...
+Span: 73 (74-1)
+Time taken: 4.85s
+Solution is valid.
+--------------------------------
+Trying with UB = 73...
+Span: 72 (73-1)
+Time taken: 4.87s
+Solution is valid.
+--------------------------------
+Trying with UB = 72...
+Span: 71 (72-1)
+Time taken: 4.92s
+Solution is valid.
+--------------------------------
+Trying with UB = 71...
+Span: 70 (71-1)
+Time taken: 4.99s
+Solution is valid.
+--------------------------------
+Trying with UB = 70...
+No solution found.
+Optimal span found: 70
+Time taken: 5.00s
+[runlim] end:			Thu Apr  2 13:35:07 2026
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			5.32 seconds
+[runlim] time:			4.96 seconds
+[runlim] space:			75.7 MB
+[runlim] samples:		50

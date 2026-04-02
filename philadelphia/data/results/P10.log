@@ -6,8 +6,8 @@
 [runlim] argv[1]:		-u
 [runlim] argv[2]:		one_vertex.py
 [runlim] argv[3]:		P10
-[runlim] start:			Sun Mar 22 00:37:02 2026
-[runlim] main pid:		122542
+[runlim] start:			Mon Mar 23 13:08:35 2026
+[runlim] main pid:		38472
 Reading dataset from P10.txt...
 Greedy span: 308 (309-1)
 Greedy solution is valid.
@@ -15,12 +15,12 @@ Greedy solution is valid.
 Trying with UB = 308...
 No solution found.
 Optimal span found: 308
-Time taken: 1.27s
-[runlim] end:			Sun Mar 22 00:37:03 2026
+Time taken: 1.17s
+[runlim] end:			Mon Mar 23 13:08:36 2026
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			1.40 seconds
-[runlim] time:			1.23 seconds
+[runlim] real:			1.30 seconds
+[runlim] time:			1.21 seconds
 [runlim] space:			218.3 MB
-[runlim] samples:		13
+[runlim] samples:		12

@@ -1,0 +1,43 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	600 seconds
+[runlim] space limit:		7759 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		gurobi.py
+[runlim] argv[3]:		P11
+[runlim] start:			Sun Mar 22 23:09:10 2026
+[runlim] main pid:		18588
+Reading dataset from data/P11.txt...
+Greedy span: 89 (90-1)
+Greedy solution is valid.
+--------------------------------
+Starting Gurobi solver with Initial UB = 90...
+*** [Callback at 0.01s] New Incumbent Found! Span: 89 (Max Freq: 90)
+*** [Callback at 7.13s] New Incumbent Found! Span: 88 (Max Freq: 89)
+*** [Callback at 7.14s] New Incumbent Found! Span: 87 (Max Freq: 88)
+*** [Callback at 7.14s] New Incumbent Found! Span: 84 (Max Freq: 85)
+[runlim] sample:		24.6 time, 9.5 real, 223.0 MB
+*** [Callback at 9.73s] New Incumbent Found! Span: 82 (Max Freq: 83)
+*** [Callback at 9.73s] New Incumbent Found! Span: 81 (Max Freq: 82)
+*** [Callback at 9.73s] New Incumbent Found! Span: 79 (Max Freq: 80)
+*** [Callback at 9.73s] New Incumbent Found! Span: 78 (Max Freq: 79)
+*** [Callback at 9.74s] New Incumbent Found! Span: 77 (Max Freq: 78)
+*** [Callback at 14.07s] New Incumbent Found! Span: 76 (Max Freq: 77)
+[runlim] sample:		63.7 time, 19.5 real, 301.0 MB
+*** [Callback at 22.51s] New Incumbent Found! Span: 75 (Max Freq: 76)
+*** [Callback at 22.51s] New Incumbent Found! Span: 74 (Max Freq: 75)
+*** [Callback at 22.53s] New Incumbent Found! Span: 73 (Max Freq: 74)
+*** [Callback at 23.09s] New Incumbent Found! Span: 70 (Max Freq: 71)
+--------------------------------
+Optimal span found: 70 (71-1)
+Total time taken: 24.44s
+Gurobi solution is valid.
+[runlim] end:			Sun Mar 22 23:09:33 2026
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			23.99 seconds
+[runlim] time:			80.51 seconds
+[runlim] space:			343.9 MB
+[runlim] samples:		245

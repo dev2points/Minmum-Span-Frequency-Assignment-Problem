@@ -1,0 +1,38 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	600 seconds
+[runlim] space limit:		7759 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		gurobi.py
+[runlim] argv[3]:		P5
+[runlim] start:			Sun Mar 22 23:01:01 2026
+[runlim] main pid:		15632
+Reading dataset from data/P5.txt...
+Greedy span: 246 (247-1)
+Greedy solution is valid.
+--------------------------------
+Starting Gurobi solver with Initial UB = 247...
+*** [Callback at 3.62s] New Incumbent Found! Span: 246 (Max Freq: 247)
+*** [Callback at 5.96s] New Incumbent Found! Span: 245 (Max Freq: 246)
+*** [Callback at 5.97s] New Incumbent Found! Span: 241 (Max Freq: 242)
+*** [Callback at 5.97s] New Incumbent Found! Span: 240 (Max Freq: 241)
+*** [Callback at 5.97s] New Incumbent Found! Span: 239 (Max Freq: 240)
+*** [Callback at 6.76s] New Incumbent Found! Span: 238 (Max Freq: 239)
+*** [Callback at 6.76s] New Incumbent Found! Span: 236 (Max Freq: 237)
+*** [Callback at 6.85s] New Incumbent Found! Span: 225 (Max Freq: 226)
+*** [Callback at 6.85s] New Incumbent Found! Span: 222 (Max Freq: 223)
+*** [Callback at 6.86s] New Incumbent Found! Span: 220 (Max Freq: 221)
+*** [Callback at 6.88s] New Incumbent Found! Span: 220 (Max Freq: 221)
+--------------------------------
+Optimal span found: 220 (221-1)
+Total time taken: 7.43s
+Gurobi solution is valid.
+[runlim] end:			Sun Mar 22 23:01:09 2026
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			8.20 seconds
+[runlim] time:			18.80 seconds
+[runlim] space:			225.8 MB
+[runlim] samples:		75

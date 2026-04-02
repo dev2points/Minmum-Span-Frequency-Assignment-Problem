@@ -15,3 +15,8 @@ runlim -r $TO python3 -u one_vertex.py P8 2>&1 | tee $RESULTS_DIR/P8.log
 runlim -r $TO python3 -u one_vertex.py P9 2>&1 | tee $RESULTS_DIR/P9.log
 runlim -r $TO python3 -u one_vertex.py P10 2>&1 | tee $RESULTS_DIR/P10.log
 runlim -r $TO python3 -u one_vertex.py P11 2>&1 | tee $RESULTS_DIR/P11.log
+
+# cd ..
+# cd ..
+# cd Gurobi
+# ./auto.sh

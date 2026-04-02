@@ -1,0 +1,51 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	600 seconds
+[runlim] space limit:		7759 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		cp.py
+[runlim] argv[3]:		P7
+[runlim] start:			Sun Mar 22 23:29:46 2026
+[runlim] main pid:		26164
+Reading dataset from data/P7.txt...
+Greedy span: 308 (309-1)
+--------------------------------
+Starting CP Optimizer with Initial UB = 309...
+Mô hình CP đã xây dựng xong, bắt đầu giải...
+ ! --------------------------------------------------- CP Optimizer 22.1.1.0 --
+ ! Minimization problem - 471 variables, 53337 constraints
+ ! Presolve      : 52886 extractables eliminated, 50466 constraints generated
+ ! LogVerbosity         = Terse
+ ! Initial process time : 0.79s (0.79s extraction + 0.00s propagation)
+ !  . Log search space  : 2850.0 (before), 2850.0 (after)
+ !  . Memory usage      : 43.2 MB (before), 43.2 MB (after)
+ ! Using parallel search with 12 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        471                 -
+ + New bound is 309
+ *           309      299  1.42s        1      (gap is 0.00%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 1 solution found.
+ ! Best objective         : 309 (optimal - effective tol. is 0)
+ ! Best bound             : 309
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 3781
+ ! Number of fails        : 91
+ ! Total memory usage     : 684.7 MB (684.6 MB CP Optimizer + 0.1 MB Concert)
+ ! Time spent in solve    : 1.42s (0.64s engine + 0.79s extraction)
+ ! Search speed (br. / s) : 5907.8
+ ! ----------------------------------------------------------------------------
+--------------------------------
+Optimal span found: 308 (309-1)
+Total time taken: 2.90s
+CP solution is valid.
+[runlim] end:			Sun Mar 22 23:29:49 2026
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		23
+[runlim] real:			3.23 seconds
+[runlim] time:			8.64 seconds
+[runlim] space:			845.8 MB
+[runlim] samples:		31

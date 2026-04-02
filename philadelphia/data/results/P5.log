@@ -6,151 +6,156 @@
 [runlim] argv[1]:		-u
 [runlim] argv[2]:		one_vertex.py
 [runlim] argv[3]:		P5
-[runlim] start:			Sun Mar 22 00:16:35 2026
-[runlim] main pid:		107693
+[runlim] start:			Mon Mar 23 12:48:10 2026
+[runlim] main pid:		25509
 Reading dataset from P5.txt...
-Greedy span: 246 (247-1)
+Greedy span: 247 (248-1)
 Greedy solution is valid.
+--------------------------------
+Trying with UB = 247...
+Span: 246 (247-1)
+Time taken: 5.23s
+Solution is valid.
 --------------------------------
 Trying with UB = 246...
 Span: 245 (246-1)
-Time taken: 3.24s
+Time taken: 5.26s
 Solution is valid.
 --------------------------------
 Trying with UB = 245...
 Span: 244 (245-1)
-Time taken: 4.47s
+Time taken: 5.29s
 Solution is valid.
 --------------------------------
 Trying with UB = 244...
 Span: 243 (244-1)
-Time taken: 5.83s
+Time taken: 5.31s
 Solution is valid.
 --------------------------------
 Trying with UB = 243...
 Span: 242 (243-1)
-Time taken: 5.86s
+Time taken: 5.96s
 Solution is valid.
 --------------------------------
 Trying with UB = 242...
 Span: 241 (242-1)
-Time taken: 6.16s
+Time taken: 6.22s
 Solution is valid.
 --------------------------------
 Trying with UB = 241...
 Span: 240 (241-1)
-Time taken: 6.19s
+Time taken: 6.25s
 Solution is valid.
 --------------------------------
 Trying with UB = 240...
 Span: 239 (240-1)
-Time taken: 6.23s
+Time taken: 6.30s
 Solution is valid.
 --------------------------------
 Trying with UB = 239...
 Span: 238 (239-1)
-Time taken: 6.26s
+Time taken: 6.34s
 Solution is valid.
 --------------------------------
 Trying with UB = 238...
 Span: 237 (238-1)
-Time taken: 6.53s
+Time taken: 6.37s
 Solution is valid.
 --------------------------------
 Trying with UB = 237...
 Span: 236 (237-1)
-Time taken: 6.56s
+Time taken: 6.40s
 Solution is valid.
 --------------------------------
 Trying with UB = 236...
 Span: 235 (236-1)
-Time taken: 6.59s
+Time taken: 6.42s
 Solution is valid.
 --------------------------------
 Trying with UB = 235...
 Span: 234 (235-1)
-Time taken: 6.93s
+Time taken: 6.45s
 Solution is valid.
 --------------------------------
 Trying with UB = 234...
 Span: 233 (234-1)
-Time taken: 7.03s
+Time taken: 6.64s
 Solution is valid.
 --------------------------------
 Trying with UB = 233...
 Span: 232 (233-1)
-Time taken: 7.07s
+Time taken: 6.67s
 Solution is valid.
 --------------------------------
 Trying with UB = 232...
 Span: 231 (232-1)
-Time taken: 7.11s
+Time taken: 6.70s
 Solution is valid.
 --------------------------------
 Trying with UB = 231...
 Span: 230 (231-1)
-Time taken: 7.14s
+Time taken: 6.89s
 Solution is valid.
 --------------------------------
 Trying with UB = 230...
 Span: 229 (230-1)
-Time taken: 7.17s
+Time taken: 6.93s
 Solution is valid.
 --------------------------------
 Trying with UB = 229...
 Span: 228 (229-1)
-Time taken: 7.19s
+Time taken: 6.96s
 Solution is valid.
 --------------------------------
 Trying with UB = 228...
 Span: 227 (228-1)
-Time taken: 7.33s
+Time taken: 7.16s
 Solution is valid.
 --------------------------------
 Trying with UB = 227...
 Span: 226 (227-1)
-Time taken: 7.79s
+Time taken: 7.31s
 Solution is valid.
 --------------------------------
 Trying with UB = 226...
 Span: 225 (226-1)
-Time taken: 8.25s
+Time taken: 7.38s
 Solution is valid.
 --------------------------------
 Trying with UB = 225...
 Span: 224 (225-1)
-Time taken: 8.49s
+Time taken: 7.40s
 Solution is valid.
 --------------------------------
 Trying with UB = 224...
 Span: 223 (224-1)
-Time taken: 8.55s
+Time taken: 7.44s
 Solution is valid.
 --------------------------------
 Trying with UB = 223...
 Span: 222 (223-1)
-Time taken: 8.73s
+Time taken: 7.71s
 Solution is valid.
 --------------------------------
 Trying with UB = 222...
 Span: 221 (222-1)
-Time taken: 8.82s
+Time taken: 7.83s
 Solution is valid.
 --------------------------------
 Trying with UB = 221...
 Span: 220 (221-1)
-Time taken: 8.86s
+Time taken: 7.94s
 Solution is valid.
 --------------------------------
 Trying with UB = 220...
 No solution found.
 Optimal span found: 220
-Time taken: 8.88s
-[runlim] end:			Sun Mar 22 00:16:43 2026
+Time taken: 7.96s
+[runlim] end:			Mon Mar 23 12:48:18 2026
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			8.18 seconds
-[runlim] time:			8.55 seconds
-[runlim] space:			88.7 MB
-[runlim] samples:		89
+[runlim] real:			8.13 seconds
+[runlim] time:			7.96 seconds
+[runlim] space:			92.1 MB
+[runlim] samples:		80

@@ -6,543 +6,362 @@
 [runlim] argv[1]:		-u
 [runlim] argv[2]:		one_vertex.py
 [runlim] argv[3]:		P8
-[runlim] start:			Sun Mar 22 00:26:43 2026
-[runlim] main pid:		115146
+[runlim] start:			Mon Mar 23 12:58:18 2026
+[runlim] main pid:		32043
 Reading dataset from P8.txt...
-Greedy span: 415 (416-1)
+Greedy span: 377 (378-1)
 Greedy solution is valid.
---------------------------------
-Trying with UB = 415...
-[runlim] sample:		9.6 time, 10.6 real, 146.5 MB
-Span: 414 (415-1)
-Time taken: 10.02s
-Solution is valid.
---------------------------------
-Trying with UB = 414...
-Span: 413 (414-1)
-Time taken: 10.52s
-Solution is valid.
---------------------------------
-Trying with UB = 413...
-Span: 412 (413-1)
-Time taken: 10.57s
-Solution is valid.
---------------------------------
-Trying with UB = 412...
-Span: 411 (412-1)
-Time taken: 10.62s
-Solution is valid.
---------------------------------
-Trying with UB = 411...
-Span: 410 (411-1)
-Time taken: 10.66s
-Solution is valid.
---------------------------------
-Trying with UB = 410...
-Span: 409 (410-1)
-Time taken: 10.73s
-Solution is valid.
---------------------------------
-Trying with UB = 409...
-Span: 408 (409-1)
-Time taken: 10.77s
-Solution is valid.
---------------------------------
-Trying with UB = 408...
-Span: 407 (408-1)
-Time taken: 10.84s
-Solution is valid.
---------------------------------
-Trying with UB = 407...
-Span: 406 (407-1)
-Time taken: 10.88s
-Solution is valid.
---------------------------------
-Trying with UB = 406...
-Span: 405 (406-1)
-Time taken: 10.93s
-Solution is valid.
---------------------------------
-Trying with UB = 405...
-Span: 404 (405-1)
-Time taken: 10.97s
-Solution is valid.
---------------------------------
-Trying with UB = 404...
-Span: 403 (404-1)
-Time taken: 11.48s
-Solution is valid.
---------------------------------
-Trying with UB = 403...
-Span: 402 (403-1)
-Time taken: 11.55s
-Solution is valid.
---------------------------------
-Trying with UB = 402...
-Span: 401 (402-1)
-Time taken: 11.62s
-Solution is valid.
---------------------------------
-Trying with UB = 401...
-Span: 400 (401-1)
-Time taken: 11.67s
-Solution is valid.
---------------------------------
-Trying with UB = 400...
-Span: 399 (400-1)
-Time taken: 11.71s
-Solution is valid.
---------------------------------
-Trying with UB = 399...
-Span: 398 (399-1)
-Time taken: 11.82s
-Solution is valid.
---------------------------------
-Trying with UB = 398...
-Span: 397 (398-1)
-Time taken: 11.87s
-Solution is valid.
---------------------------------
-Trying with UB = 397...
-Span: 396 (397-1)
-Time taken: 11.91s
-Solution is valid.
---------------------------------
-Trying with UB = 396...
-Span: 395 (396-1)
-Time taken: 11.95s
-Solution is valid.
---------------------------------
-Trying with UB = 395...
-Span: 394 (395-1)
-Time taken: 11.99s
-Solution is valid.
---------------------------------
-Trying with UB = 394...
-Span: 393 (394-1)
-Time taken: 12.03s
-Solution is valid.
---------------------------------
-Trying with UB = 393...
-Span: 391 (392-1)
-Time taken: 12.08s
-Solution is valid.
---------------------------------
-Trying with UB = 391...
-Span: 390 (391-1)
-Time taken: 12.12s
-Solution is valid.
---------------------------------
-Trying with UB = 390...
-Span: 389 (390-1)
-Time taken: 12.17s
-Solution is valid.
---------------------------------
-Trying with UB = 389...
-Span: 388 (389-1)
-Time taken: 12.22s
-Solution is valid.
---------------------------------
-Trying with UB = 388...
-Span: 387 (388-1)
-Time taken: 12.27s
-Solution is valid.
---------------------------------
-Trying with UB = 387...
-Span: 386 (387-1)
-Time taken: 12.31s
-Solution is valid.
---------------------------------
-Trying with UB = 386...
-Span: 385 (386-1)
-Time taken: 12.36s
-Solution is valid.
---------------------------------
-Trying with UB = 385...
-Span: 384 (385-1)
-Time taken: 12.40s
-Solution is valid.
---------------------------------
-Trying with UB = 384...
-Span: 383 (384-1)
-Time taken: 12.44s
-Solution is valid.
---------------------------------
-Trying with UB = 383...
-Span: 382 (383-1)
-Time taken: 12.48s
-Solution is valid.
---------------------------------
-Trying with UB = 382...
-Span: 381 (382-1)
-Time taken: 12.52s
-Solution is valid.
---------------------------------
-Trying with UB = 381...
-Span: 380 (381-1)
-Time taken: 13.20s
-Solution is valid.
---------------------------------
-Trying with UB = 380...
-Span: 379 (380-1)
-Time taken: 13.24s
-Solution is valid.
---------------------------------
-Trying with UB = 379...
-Span: 378 (379-1)
-Time taken: 13.28s
-Solution is valid.
---------------------------------
-Trying with UB = 378...
-Span: 377 (378-1)
-Time taken: 13.33s
-Solution is valid.
 --------------------------------
 Trying with UB = 377...
 Span: 376 (377-1)
-Time taken: 13.42s
+Time taken: 4.95s
 Solution is valid.
 --------------------------------
 Trying with UB = 376...
 Span: 375 (376-1)
-Time taken: 13.57s
+Time taken: 6.87s
 Solution is valid.
 --------------------------------
 Trying with UB = 375...
 Span: 374 (375-1)
-Time taken: 13.61s
+Time taken: 8.79s
 Solution is valid.
 --------------------------------
 Trying with UB = 374...
 Span: 373 (374-1)
-Time taken: 13.65s
+Time taken: 9.53s
 Solution is valid.
 --------------------------------
 Trying with UB = 373...
 Span: 372 (373-1)
-Time taken: 13.69s
+Time taken: 9.64s
 Solution is valid.
 --------------------------------
 Trying with UB = 372...
 Span: 371 (372-1)
-Time taken: 13.75s
+Time taken: 9.69s
 Solution is valid.
 --------------------------------
 Trying with UB = 371...
 Span: 370 (371-1)
-Time taken: 13.80s
+Time taken: 9.72s
 Solution is valid.
 --------------------------------
 Trying with UB = 370...
+[runlim] sample:		10.0 time, 10.6 real, 134.4 MB
 Span: 369 (370-1)
-Time taken: 13.84s
+Time taken: 10.12s
 Solution is valid.
 --------------------------------
 Trying with UB = 369...
 Span: 368 (369-1)
-Time taken: 13.89s
+Time taken: 10.16s
 Solution is valid.
 --------------------------------
 Trying with UB = 368...
 Span: 367 (368-1)
-Time taken: 13.93s
+Time taken: 10.20s
 Solution is valid.
 --------------------------------
 Trying with UB = 367...
 Span: 366 (367-1)
-Time taken: 13.97s
+Time taken: 10.24s
 Solution is valid.
 --------------------------------
 Trying with UB = 366...
 Span: 365 (366-1)
-Time taken: 14.66s
+Time taken: 10.27s
 Solution is valid.
 --------------------------------
 Trying with UB = 365...
 Span: 364 (365-1)
-Time taken: 14.71s
+Time taken: 10.31s
 Solution is valid.
 --------------------------------
 Trying with UB = 364...
 Span: 363 (364-1)
-Time taken: 14.77s
+Time taken: 10.42s
 Solution is valid.
 --------------------------------
 Trying with UB = 363...
 Span: 362 (363-1)
-Time taken: 14.86s
+Time taken: 10.46s
 Solution is valid.
 --------------------------------
 Trying with UB = 362...
 Span: 361 (362-1)
-Time taken: 14.91s
+Time taken: 10.50s
 Solution is valid.
 --------------------------------
 Trying with UB = 361...
 Span: 360 (361-1)
-Time taken: 15.02s
+Time taken: 10.53s
 Solution is valid.
 --------------------------------
 Trying with UB = 360...
+Span: 359 (360-1)
+Time taken: 10.57s
+Solution is valid.
+--------------------------------
+Trying with UB = 359...
 Span: 358 (359-1)
-Time taken: 15.07s
+Time taken: 10.62s
 Solution is valid.
 --------------------------------
 Trying with UB = 358...
 Span: 357 (358-1)
-Time taken: 15.11s
+Time taken: 10.66s
 Solution is valid.
 --------------------------------
 Trying with UB = 357...
 Span: 355 (356-1)
-Time taken: 15.16s
+Time taken: 10.70s
 Solution is valid.
 --------------------------------
 Trying with UB = 355...
 Span: 354 (355-1)
-Time taken: 15.20s
+Time taken: 10.74s
 Solution is valid.
 --------------------------------
 Trying with UB = 354...
 Span: 353 (354-1)
-Time taken: 15.34s
+Time taken: 10.78s
 Solution is valid.
 --------------------------------
 Trying with UB = 353...
 Span: 352 (353-1)
-Time taken: 15.48s
+Time taken: 10.81s
 Solution is valid.
 --------------------------------
 Trying with UB = 352...
 Span: 351 (352-1)
-Time taken: 15.53s
+Time taken: 11.28s
 Solution is valid.
 --------------------------------
 Trying with UB = 351...
 Span: 350 (351-1)
-Time taken: 15.58s
+Time taken: 11.33s
 Solution is valid.
 --------------------------------
 Trying with UB = 350...
 Span: 349 (350-1)
-Time taken: 15.62s
+Time taken: 12.19s
 Solution is valid.
 --------------------------------
 Trying with UB = 349...
 Span: 348 (349-1)
-Time taken: 15.66s
+Time taken: 12.23s
 Solution is valid.
 --------------------------------
 Trying with UB = 348...
 Span: 347 (348-1)
-Time taken: 15.70s
+Time taken: 12.27s
 Solution is valid.
 --------------------------------
 Trying with UB = 347...
 Span: 346 (347-1)
-Time taken: 15.74s
+Time taken: 12.30s
 Solution is valid.
 --------------------------------
 Trying with UB = 346...
 Span: 345 (346-1)
-Time taken: 15.78s
+Time taken: 12.34s
 Solution is valid.
 --------------------------------
 Trying with UB = 345...
 Span: 344 (345-1)
-Time taken: 15.82s
+Time taken: 12.37s
 Solution is valid.
 --------------------------------
 Trying with UB = 344...
 Span: 343 (344-1)
-Time taken: 15.87s
+Time taken: 12.45s
 Solution is valid.
 --------------------------------
 Trying with UB = 343...
 Span: 342 (343-1)
-Time taken: 16.04s
+Time taken: 12.48s
 Solution is valid.
 --------------------------------
 Trying with UB = 342...
 Span: 341 (342-1)
-Time taken: 16.08s
+Time taken: 12.52s
 Solution is valid.
 --------------------------------
 Trying with UB = 341...
 Span: 340 (341-1)
-Time taken: 16.13s
+Time taken: 12.64s
 Solution is valid.
 --------------------------------
 Trying with UB = 340...
 Span: 339 (340-1)
-Time taken: 16.17s
+Time taken: 13.26s
 Solution is valid.
 --------------------------------
 Trying with UB = 339...
 Span: 338 (339-1)
-Time taken: 16.58s
+Time taken: 13.34s
 Solution is valid.
 --------------------------------
 Trying with UB = 338...
 Span: 337 (338-1)
-Time taken: 16.69s
+Time taken: 13.39s
 Solution is valid.
 --------------------------------
 Trying with UB = 337...
 Span: 336 (337-1)
-Time taken: 16.73s
+Time taken: 13.48s
 Solution is valid.
 --------------------------------
 Trying with UB = 336...
 Span: 335 (336-1)
-Time taken: 17.16s
+Time taken: 13.51s
 Solution is valid.
 --------------------------------
 Trying with UB = 335...
 Span: 334 (335-1)
-Time taken: 17.28s
+Time taken: 13.56s
 Solution is valid.
 --------------------------------
 Trying with UB = 334...
 Span: 333 (334-1)
-Time taken: 17.34s
+Time taken: 13.60s
 Solution is valid.
 --------------------------------
 Trying with UB = 333...
 Span: 332 (333-1)
-Time taken: 17.39s
+Time taken: 13.63s
 Solution is valid.
 --------------------------------
 Trying with UB = 332...
 Span: 331 (332-1)
-Time taken: 17.43s
+Time taken: 13.73s
 Solution is valid.
 --------------------------------
 Trying with UB = 331...
 Span: 330 (331-1)
-Time taken: 17.52s
+Time taken: 13.77s
 Solution is valid.
 --------------------------------
 Trying with UB = 330...
 Span: 329 (330-1)
-Time taken: 17.56s
+Time taken: 13.80s
 Solution is valid.
 --------------------------------
 Trying with UB = 329...
 Span: 328 (329-1)
-Time taken: 17.59s
+Time taken: 14.32s
 Solution is valid.
 --------------------------------
 Trying with UB = 328...
 Span: 327 (328-1)
-Time taken: 17.64s
+Time taken: 14.37s
 Solution is valid.
 --------------------------------
 Trying with UB = 327...
 Span: 326 (327-1)
-Time taken: 17.67s
+Time taken: 14.41s
 Solution is valid.
 --------------------------------
 Trying with UB = 326...
 Span: 325 (326-1)
-Time taken: 17.72s
+Time taken: 14.93s
 Solution is valid.
 --------------------------------
 Trying with UB = 325...
 Span: 324 (325-1)
-Time taken: 17.86s
+Time taken: 14.97s
 Solution is valid.
 --------------------------------
 Trying with UB = 324...
 Span: 323 (324-1)
-Time taken: 17.90s
+Time taken: 15.16s
 Solution is valid.
 --------------------------------
 Trying with UB = 323...
 Span: 322 (323-1)
-Time taken: 17.94s
+Time taken: 15.20s
 Solution is valid.
 --------------------------------
 Trying with UB = 322...
 Span: 321 (322-1)
-Time taken: 17.98s
+Time taken: 15.31s
 Solution is valid.
 --------------------------------
 Trying with UB = 321...
 Span: 320 (321-1)
-Time taken: 18.02s
+Time taken: 15.35s
 Solution is valid.
 --------------------------------
 Trying with UB = 320...
 Span: 319 (320-1)
-Time taken: 18.26s
+Time taken: 15.39s
 Solution is valid.
 --------------------------------
 Trying with UB = 319...
 Span: 318 (319-1)
-Time taken: 18.33s
+Time taken: 15.43s
 Solution is valid.
 --------------------------------
 Trying with UB = 318...
 Span: 317 (318-1)
-Time taken: 19.26s
+Time taken: 15.62s
 Solution is valid.
 --------------------------------
 Trying with UB = 317...
 Span: 316 (317-1)
-Time taken: 19.36s
+Time taken: 15.72s
 Solution is valid.
 --------------------------------
 Trying with UB = 316...
 Span: 315 (316-1)
-Time taken: 19.41s
+Time taken: 15.80s
 Solution is valid.
 --------------------------------
 Trying with UB = 315...
 Span: 314 (315-1)
-Time taken: 19.45s
+Time taken: 16.01s
 Solution is valid.
 --------------------------------
 Trying with UB = 314...
 Span: 313 (314-1)
-Time taken: 19.56s
+Time taken: 16.05s
 Solution is valid.
 --------------------------------
 Trying with UB = 313...
 Span: 312 (313-1)
-Time taken: 19.75s
+Time taken: 16.27s
 Solution is valid.
 --------------------------------
 Trying with UB = 312...
 Span: 311 (312-1)
-Time taken: 19.79s
+Time taken: 16.55s
 Solution is valid.
 --------------------------------
 Trying with UB = 311...
 Span: 310 (311-1)
-Time taken: 19.89s
+Time taken: 16.86s
 Solution is valid.
 --------------------------------
 Trying with UB = 310...
 Span: 309 (310-1)
-Time taken: 19.93s
+Time taken: 17.01s
 Solution is valid.
 --------------------------------
 Trying with UB = 309...
-[runlim] sample:		19.2 time, 19.4 real, 146.5 MB
 Span: 308 (309-1)
-Time taken: 19.97s
+Time taken: 17.13s
 Solution is valid.
 --------------------------------
 Trying with UB = 308...
 No solution found.
 Optimal span found: 308
-Time taken: 20.00s
-[runlim] end:			Sun Mar 22 00:27:02 2026
+Time taken: 17.15s
+[runlim] end:			Mon Mar 23 12:58:35 2026
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			19.42 seconds
-[runlim] time:			19.22 seconds
-[runlim] space:			163.8 MB
-[runlim] samples:		200
+[runlim] real:			17.82 seconds
+[runlim] time:			17.18 seconds
+[runlim] space:			163.4 MB
+[runlim] samples:		172

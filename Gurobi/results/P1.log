@@ -1,0 +1,28 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	600 seconds
+[runlim] space limit:		7759 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		gurobi.py
+[runlim] argv[3]:		P1
+[runlim] start:			Mon Mar 23 12:13:48 2026
+[runlim] main pid:		1376
+Reading dataset from data/P1.txt...
+Greedy span: 380 (381-1)
+Greedy solution is valid.
+--------------------------------
+Starting Gurobi solver with Initial UB = 381...
+*** [Callback at 0.70s] New Incumbent Found! Span: 380 (Max Freq: 381)
+--------------------------------
+Optimal span found: 380 (381-1)
+Total time taken: 2.09s
+Gurobi solution is valid.
+[runlim] end:			Mon Mar 23 12:13:50 2026
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			2.55 seconds
+[runlim] time:			1.44 seconds
+[runlim] space:			85.5 MB
+[runlim] samples:		21

@@ -1,0 +1,98 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	600 seconds
+[runlim] space limit:		7759 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		gurobi.py
+[runlim] argv[3]:		P6
+[runlim] start:			Sun Mar 22 23:01:09 2026
+[runlim] main pid:		15682
+Reading dataset from data/P6.txt...
+Greedy span: 346 (347-1)
+Greedy solution is valid.
+--------------------------------
+Starting Gurobi solver with Initial UB = 347...
+[runlim] sample:		10.0 time, 10.2 real, 101.6 MB
+*** [Callback at 13.72s] New Incumbent Found! Span: 346 (Max Freq: 347)
+[runlim] sample:		36.5 time, 19.7 real, 258.4 MB
+[runlim] sample:		75.5 time, 29.7 real, 285.7 MB
+[runlim] sample:		115.0 time, 39.7 real, 317.8 MB
+*** [Callback at 42.30s] New Incumbent Found! Span: 338 (Max Freq: 339)
+*** [Callback at 46.51s] New Incumbent Found! Span: 334 (Max Freq: 335)
+[runlim] sample:		154.4 time, 49.2 real, 343.5 MB
+[runlim] sample:		193.5 time, 59.2 real, 392.2 MB
+[runlim] sample:		232.8 time, 69.2 real, 398.6 MB
+[runlim] sample:		272.3 time, 78.6 real, 400.1 MB
+[runlim] sample:		311.4 time, 88.6 real, 422.2 MB
+[runlim] sample:		350.6 time, 98.6 real, 428.5 MB
+[runlim] sample:		390.0 time, 108.0 real, 437.9 MB
+[runlim] sample:		428.7 time, 118.0 real, 452.9 MB
+*** [Callback at 120.14s] New Incumbent Found! Span: 333 (Max Freq: 334)
+*** [Callback at 120.15s] New Incumbent Found! Span: 326 (Max Freq: 327)
+*** [Callback at 122.08s] New Incumbent Found! Span: 325 (Max Freq: 326)
+[runlim] sample:		468.1 time, 128.0 real, 454.1 MB
+*** [Callback at 129.73s] New Incumbent Found! Span: 321 (Max Freq: 322)
+*** [Callback at 129.74s] New Incumbent Found! Span: 320 (Max Freq: 321)
+*** [Callback at 129.74s] New Incumbent Found! Span: 319 (Max Freq: 320)
+*** [Callback at 129.74s] New Incumbent Found! Span: 316 (Max Freq: 317)
+*** [Callback at 129.75s] New Incumbent Found! Span: 310 (Max Freq: 311)
+*** [Callback at 129.76s] New Incumbent Found! Span: 309 (Max Freq: 310)
+*** [Callback at 129.77s] New Incumbent Found! Span: 305 (Max Freq: 306)
+*** [Callback at 129.77s] New Incumbent Found! Span: 304 (Max Freq: 305)
+*** [Callback at 129.78s] New Incumbent Found! Span: 302 (Max Freq: 303)
+*** [Callback at 129.79s] New Incumbent Found! Span: 301 (Max Freq: 302)
+*** [Callback at 129.80s] New Incumbent Found! Span: 293 (Max Freq: 294)
+[runlim] sample:		507.5 time, 138.0 real, 456.3 MB
+*** [Callback at 137.53s] New Incumbent Found! Span: 291 (Max Freq: 292)
+*** [Callback at 137.53s] New Incumbent Found! Span: 290 (Max Freq: 291)
+[runlim] sample:		546.8 time, 147.3 real, 456.9 MB
+[runlim] sample:		585.5 time, 157.3 real, 463.3 MB
+*** [Callback at 159.59s] New Incumbent Found! Span: 289 (Max Freq: 290)
+[runlim] sample:		625.0 time, 167.3 real, 463.6 MB
+[runlim] sample:		664.4 time, 176.6 real, 463.8 MB
+*** [Callback at 176.17s] New Incumbent Found! Span: 288 (Max Freq: 289)
+[runlim] sample:		703.6 time, 186.6 real, 464.1 MB
+*** [Callback at 193.42s] New Incumbent Found! Span: 287 (Max Freq: 288)
+[runlim] sample:		742.6 time, 196.6 real, 464.1 MB
+[runlim] sample:		782.0 time, 206.0 real, 464.4 MB
+*** [Callback at 207.01s] New Incumbent Found! Span: 286 (Max Freq: 287)
+[runlim] sample:		821.1 time, 216.0 real, 477.1 MB
+[runlim] sample:		860.4 time, 226.0 real, 477.1 MB
+*** [Callback at 225.63s] New Incumbent Found! Span: 285 (Max Freq: 286)
+[runlim] sample:		899.7 time, 235.3 real, 487.4 MB
+*** [Callback at 236.59s] New Incumbent Found! Span: 284 (Max Freq: 285)
+[runlim] sample:		938.6 time, 245.3 real, 483.6 MB
+*** [Callback at 249.57s] New Incumbent Found! Span: 283 (Max Freq: 284)
+[runlim] sample:		977.6 time, 255.3 real, 484.5 MB
+*** [Callback at 259.34s] New Incumbent Found! Span: 282 (Max Freq: 283)
+[runlim] sample:		1016.9 time, 265.3 real, 487.0 MB
+*** [Callback at 267.58s] New Incumbent Found! Span: 281 (Max Freq: 282)
+[runlim] sample:		1056.2 time, 274.5 real, 490.7 MB
+[runlim] sample:		1094.9 time, 284.5 real, 493.9 MB
+[runlim] sample:		1134.0 time, 294.5 real, 495.2 MB
+[runlim] sample:		1173.3 time, 303.8 real, 495.2 MB
+[runlim] sample:		1211.4 time, 313.8 real, 495.5 MB
+[runlim] sample:		1250.7 time, 323.8 real, 495.6 MB
+[runlim] sample:		1306.6 time, 332.9 real, 521.6 MB
+*** [Callback at 338.38s] New Incumbent Found! Span: 276 (Max Freq: 277)
+[runlim] sample:		1359.3 time, 342.9 real, 529.2 MB
+*** [Callback at 348.03s] New Incumbent Found! Span: 274 (Max Freq: 275)
+*** [Callback at 351.36s] New Incumbent Found! Span: 273 (Max Freq: 274)
+[runlim] sample:		1399.8 time, 352.9 real, 529.7 MB
+[runlim] sample:		1439.2 time, 362.2 real, 533.2 MB
+[runlim] sample:		1474.7 time, 372.2 real, 548.3 MB
+[runlim] sample:		1501.7 time, 382.2 real, 578.9 MB
+*** [Callback at 385.83s] New Incumbent Found! Span: 272 (Max Freq: 273)
+--------------------------------
+Optimal span found: 272 (273-1)
+Total time taken: 394.95s
+Gurobi solution is valid.
+[runlim] end:			Sun Mar 22 23:07:36 2026
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			387.21 seconds
+[runlim] time:			1520.60 seconds
+[runlim] space:			582.2 MB
+[runlim] samples:		3950

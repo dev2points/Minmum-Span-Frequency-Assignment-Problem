@@ -43,6 +43,12 @@ def read_dataset(file_path):
             break  # Hoàn thành đọc ma trận
             
         i += 1
+    
+    for row in range(1, num_cells + 1):
+        for col in range(row + 1, num_cells + 1):
+            if matrix[row][col] != matrix[col][row]:
+                raise ValueError(f"Invalid matrix: matrix[{row}][{col}] != matrix[{col}][{row}]")
+        
 
     return num_cells, demand_vector, matrix
 
@@ -142,11 +148,14 @@ def add_distance_constraints(solver, num_cells, UB, x, matrix):
         for v in range(u, num_cells + 1):
             d = matrix[u][v]
             if d > 0:
-                for j in range(1, UB + 1):
-                    for k in range(max(1, j - d + 1), min(UB, j + d - 1) + 1):
-                        if u == v and j == k:
-                            continue
-                        solver.add_clause([-x[u][j], -x[v][k]])  # (5) x[u][j] => (-g[v][k] OR -l[v][k])
+                if u == v:
+                    for j in range(1, UB + 1):
+                        for k in range(j + 1, min(UB, j + d - 1) + 1):
+                            solver.add_clause([-x[u][j], -x[v][k]])
+                else:
+                    for j in range(1, UB + 1):
+                        for k in range(max(1, j - d + 1), min(UB, j + d - 1) + 1):
+                            solver.add_clause([-x[u][j], -x[v][k]])  # (5) x[u][j] => (-g[v][k] OR -l[v][k])
 
 def create_frequency_constraints(solver, num_cells, UB, x, top):
     f = [0] * (UB + 1)
@@ -183,10 +192,12 @@ def greedy(num_cells, demand, distance_matrix):
                 
                 # Kiểm tra nhiễu Co-site (d_ii)
                 co_site_dist = distance_matrix[cell][cell]
-                for used_f in assignment[cell]:
-                    if abs(freq - used_f) < co_site_dist:
-                        has_conflict = True
-                        break
+                if assignment[cell]:  # Nếu chưa có tần số nào được gán cho cell này, bỏ qua kiểm tra co-site
+                    
+                    for used_f in assignment[cell]:
+                        if abs(freq - used_f) < co_site_dist:
+                            has_conflict = True
+                            break
                 
                 # Kiểm tra nhiễu Inter-site (d_ij)
                 if not has_conflict:
@@ -201,6 +212,8 @@ def greedy(num_cells, demand, distance_matrix):
                                 if abs(freq - used_f) < inter_site_dist:
                                     has_conflict = True
                                     break
+                        elif inter_site_dist < 0:
+                            raise ValueError(f"Invalid distance matrix: distance between cell {cell} and {other_cell} is {inter_site_dist}, expected >= 0.")
                         
                         if has_conflict:
                             break
@@ -222,157 +235,6 @@ def greedy(num_cells, demand, distance_matrix):
             
     return max_freq, min_freq, assignment
 
-def greedy_plus(num_cells, demand, distance_matrix):
-    assignment = {i: [] for i in range(1, num_cells + 1)}
-    
-    # --- CẢI TIẾN 1: TÍNH ĐIỂM ĐỘ KHÓ ĐỂ SẮP XẾP ---
-    node_scores = {}
-    for i in range(1, num_cells + 1):
-        # Tổng các ràng buộc khoảng cách với các node khác
-        inter_weight = sum(distance_matrix[i][j] for j in range(1, num_cells + 1) if j != i)
-        co_site_weight = distance_matrix[i][i]
-        
-        # Trọng số = Demand * (Tổng ràng buộc Inter-site + Ràng buộc Co-site)
-        node_scores[i] = demand[i] * (inter_weight + co_site_weight)
-        
-    # Sắp xếp giảm dần theo điểm độ khó
-    sorted_cells = sorted(range(1, num_cells + 1), key=lambda x: node_scores[x], reverse=True)
-    
-    # --- BẮT ĐẦU GÁN TẦN SỐ ---
-    for cell in sorted_cells:
-        for _ in range(demand[cell]):
-            freq = 1  
-            
-            while True:
-                conflict_found = False
-                
-                # 1. Kiểm tra nhiễu Co-site (d_ii)
-                co_site_dist = distance_matrix[cell][cell]
-                for used_f in assignment[cell]:
-                    if abs(freq - used_f) < co_site_dist:
-                        # --- CẢI TIẾN 2: BƯỚC NHẢY TẦN SỐ ---
-                        # Nhảy thẳng ra khỏi vùng cấm của used_f
-                        freq = used_f + co_site_dist 
-                        conflict_found = True
-                        break
-                        
-                if conflict_found:
-                    continue # Bắt đầu check lại từ đầu với freq mới
-                
-                # 2. Kiểm tra nhiễu Inter-site (d_ij)
-                for other_cell in range(1, num_cells + 1):
-                    if other_cell == cell or not assignment[other_cell]:
-                        continue
-                        
-                    inter_site_dist = distance_matrix[cell][other_cell]
-                    if inter_site_dist > 0:
-                        for used_f in assignment[other_cell]:
-                            if abs(freq - used_f) < inter_site_dist:
-                                # Nhảy vọt qua vùng cấm inter-site
-                                freq = used_f + inter_site_dist
-                                conflict_found = True
-                                break # Thoát vòng lặp used_f
-                                
-                    if conflict_found:
-                        break # Thoát vòng lặp other_cell
-                
-                # Nếu không có bất kỳ xung đột nào, chốt tần số!
-                if not conflict_found:
-                    assignment[cell].append(freq)
-                    break
-                    
-    # Tìm Max Freq và Min Freq
-    max_freq = 0
-    min_freq = float('inf')
-    for freqs in assignment.values():
-        if freqs:
-            max_freq = max(max_freq, max(freqs))
-            min_freq = min(min_freq, min(freqs))
-            
-    # Nếu đồ thị rỗng (min_freq không đổi) thì trả về 0
-    if min_freq == float('inf'):
-        min_freq = 0
-            
-    return max_freq, min_freq, assignment
-
-def multi_greedy(num_cells, demand, distance_matrix, num_iterations=100):
-    best_max_freq = float('inf')
-    best_min_freq = 0
-    best_assignment = None
-    best_span = float('inf')
-    
-    # 1. Tính điểm độ khó gốc cho từng cell (Tư tưởng thuật toán F/DR)
-    base_scores = {}
-    for i in range(1, num_cells + 1):
-        # Tổng tất cả các ràng buộc khoảng cách liên quan đến trạm i (Co-site + Inter-site)
-        total_interference = sum(distance_matrix[i])
-        base_scores[i] = demand[i] * total_interference
-        
-    # 2. Chạy Greedy nhiều lần để tìm UB (Span) ép sát nhất
-    for iteration in range(num_iterations):
-        assignment = {i: [] for i in range(1, num_cells + 1)}
-        
-        # Thêm nhiễu ngẫu nhiên (±10%) vào điểm gốc để sinh ra thứ tự ưu tiên mới
-        current_scores = {i: base_scores[i] * random.uniform(0.9, 1.1) for i in range(1, num_cells + 1)}
-        
-        # Sắp xếp các cell theo điểm độ khó đã được xáo trộn nhẹ
-        sorted_cells = sorted(range(1, num_cells + 1), key=lambda x: current_scores[x], reverse=True)
-        
-        # --- Giữ nguyên 100% logic gán tần số an toàn của bạn ---
-        for cell in sorted_cells:
-            for _ in range(demand[cell]):
-                freq = 1  
-                
-                while True:
-                    has_conflict = False
-                    
-                    # Kiểm tra nhiễu Co-site
-                    co_site_dist = distance_matrix[cell][cell]
-                    for used_f in assignment[cell]:
-                        if abs(freq - used_f) < co_site_dist:
-                            has_conflict = True
-                            break
-                    
-                    # Kiểm tra nhiễu Inter-site
-                    if not has_conflict:
-                        for other_cell in range(1, num_cells + 1):
-                            if other_cell == cell or not assignment[other_cell]:
-                                continue
-                            
-                            inter_site_dist = distance_matrix[cell][other_cell]
-                            if inter_site_dist > 0:
-                                for used_f in assignment[other_cell]:
-                                    if abs(freq - used_f) < inter_site_dist:
-                                        has_conflict = True
-                                        break
-                            if has_conflict:
-                                break
-                    
-                    if has_conflict:
-                        freq += 1
-                    else:
-                        assignment[cell].append(freq)
-                        break
-                        
-        # 3. Tính Span của cấu hình vừa chạy xong
-        max_f = 0
-        min_f = float('inf')
-        for freqs in assignment.values():
-            if freqs:
-                max_f = max(max_f, max(freqs))
-                min_f = min(min_f, min(freqs))
-                
-        if min_f == float('inf'): min_f = 0
-        current_span = max_f - min_f
-        
-        # 4. Nếu tìm được Span nhỏ hơn, chốt làm UB tốt nhất
-        if current_span < best_span:
-            best_span = current_span
-            best_max_freq = max_f
-            best_min_freq = min_f
-            best_assignment = assignment
-            
-    return best_max_freq, best_min_freq, best_assignment
 
 def solve_and_print(solver, num_cells, UB, x, demand_vector, matrix):
     span = -1
@@ -429,14 +291,13 @@ def verify_solution(assignment, demand_vector, distance_matrix):
 if __name__ == "__main__":
     start_time = time.perf_counter()
 
-    dataset = sys.argv[1]
-    file_path = f"dataset/{dataset}.txt"
+    file_path = sys.argv[1]
     print(f"Reading dataset from {file_path}...")
 
     num_cells, demand_vector, matrix = read_dataset(file_path)
     # max_fre, min_fre, greedy_assignment = greedy(num_cells, demand_vector, matrix)
     # max_fre, min_fre, greedy_assignment = greedy_plus(num_cells, demand_vector, matrix)
-    max_fre, min_fre, greedy_assignment = multi_greedy(num_cells, demand_vector, matrix, num_iterations=100)
+    max_fre, min_fre, greedy_assignment = greedy(num_cells, demand_vector, matrix)
     print(f"Greedy span: {max_fre - min_fre} ({max_fre}-{min_fre})")
     if verify_solution(greedy_assignment, demand_vector, matrix):
         print("Greedy solution is valid.")
@@ -454,7 +315,7 @@ if __name__ == "__main__":
     # add exactly k constraints cuối cùng vì không trả về top_id
     add_exactly_k_constraints(solver, num_cells, UB, x, demand_vector, top)
     # add_exactly_k_nsc(solver, num_cells, UB, x, demand_vector, top)
-    # symmetry_breaking(solver, num_cells, x, demand_vector, matrix)
+    symmetry_breaking(solver, num_cells, x, demand_vector, matrix)
 
     solver.add_clause([f[1]])
     while True:

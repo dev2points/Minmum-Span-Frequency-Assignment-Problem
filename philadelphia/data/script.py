@@ -47,5 +47,8 @@ def process_folder(folder_path, output_csv="results.csv"):
 
 
 if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python script.py <folder_path>")
+        sys.exit(1)
     folder_path = sys.argv[1]
     process_folder(folder_path)

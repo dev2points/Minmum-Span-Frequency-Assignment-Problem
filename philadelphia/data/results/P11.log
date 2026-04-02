@@ -6,116 +6,116 @@
 [runlim] argv[1]:		-u
 [runlim] argv[2]:		one_vertex.py
 [runlim] argv[3]:		P11
-[runlim] start:			Sun Mar 22 00:37:03 2026
-[runlim] main pid:		122562
+[runlim] start:			Mon Mar 23 13:08:36 2026
+[runlim] main pid:		38498
 Reading dataset from P11.txt...
 Greedy span: 89 (90-1)
 Greedy solution is valid.
 --------------------------------
 Trying with UB = 89...
 Span: 88 (89-1)
-Time taken: 0.34s
+Time taken: 0.33s
 Solution is valid.
 --------------------------------
 Trying with UB = 88...
 Span: 87 (88-1)
-Time taken: 1.17s
+Time taken: 1.14s
 Solution is valid.
 --------------------------------
 Trying with UB = 87...
 Span: 86 (87-1)
-Time taken: 1.69s
+Time taken: 1.63s
 Solution is valid.
 --------------------------------
 Trying with UB = 86...
 Span: 85 (86-1)
-Time taken: 1.79s
+Time taken: 1.70s
 Solution is valid.
 --------------------------------
 Trying with UB = 85...
 Span: 84 (85-1)
-Time taken: 1.85s
+Time taken: 1.76s
 Solution is valid.
 --------------------------------
 Trying with UB = 84...
 Span: 83 (84-1)
-Time taken: 1.94s
+Time taken: 1.84s
 Solution is valid.
 --------------------------------
 Trying with UB = 83...
 Span: 82 (83-1)
-Time taken: 2.04s
+Time taken: 1.93s
 Solution is valid.
 --------------------------------
 Trying with UB = 82...
 Span: 81 (82-1)
-Time taken: 2.38s
+Time taken: 2.25s
 Solution is valid.
 --------------------------------
 Trying with UB = 81...
 Span: 80 (81-1)
-Time taken: 2.45s
+Time taken: 2.32s
 Solution is valid.
 --------------------------------
 Trying with UB = 80...
 Span: 79 (80-1)
-Time taken: 2.54s
+Time taken: 2.40s
 Solution is valid.
 --------------------------------
 Trying with UB = 79...
 Span: 78 (79-1)
-Time taken: 2.61s
+Time taken: 2.47s
 Solution is valid.
 --------------------------------
 Trying with UB = 78...
 Span: 77 (78-1)
-Time taken: 2.68s
+Time taken: 2.54s
 Solution is valid.
 --------------------------------
 Trying with UB = 77...
 Span: 76 (77-1)
-Time taken: 2.77s
+Time taken: 2.61s
 Solution is valid.
 --------------------------------
 Trying with UB = 76...
 Span: 75 (76-1)
-Time taken: 2.85s
+Time taken: 2.69s
 Solution is valid.
 --------------------------------
 Trying with UB = 75...
 Span: 74 (75-1)
-Time taken: 2.89s
+Time taken: 2.73s
 Solution is valid.
 --------------------------------
 Trying with UB = 74...
 Span: 73 (74-1)
-Time taken: 2.95s
+Time taken: 2.79s
 Solution is valid.
 --------------------------------
 Trying with UB = 73...
 Span: 72 (73-1)
-Time taken: 3.04s
+Time taken: 2.87s
 Solution is valid.
 --------------------------------
 Trying with UB = 72...
 Span: 71 (72-1)
-Time taken: 3.11s
+Time taken: 2.93s
 Solution is valid.
 --------------------------------
 Trying with UB = 71...
 Span: 70 (71-1)
-Time taken: 3.19s
+Time taken: 3.02s
 Solution is valid.
 --------------------------------
 Trying with UB = 70...
 No solution found.
 Optimal span found: 70
-Time taken: 3.20s
-[runlim] end:			Sun Mar 22 00:37:06 2026
+Time taken: 3.03s
+[runlim] end:			Mon Mar 23 13:08:39 2026
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			3.66 seconds
-[runlim] time:			3.06 seconds
-[runlim] space:			76.1 MB
-[runlim] samples:		32
+[runlim] real:			3.37 seconds
+[runlim] time:			3.01 seconds
+[runlim] space:			76.8 MB
+[runlim] samples:		30

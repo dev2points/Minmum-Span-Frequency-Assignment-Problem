@@ -23,3 +23,4 @@ runlim -r $TO python3 -u one_vertex.py P16 2>&1 | tee $RESULTS_DIR/P16.log
 runlim -r $TO python3 -u one_vertex.py P17 2>&1 | tee $RESULTS_DIR/P17.log
 runlim -r $TO python3 -u one_vertex.py P18 2>&1 | tee $RESULTS_DIR/P18.log
 runlim -r $TO python3 -u one_vertex.py P19 2>&1 | tee $RESULTS_DIR/P19.log
+runlim -r $TO python3 -u one_vertex.py P20 2>&1 | tee $RESULTS_DIR/P20.log

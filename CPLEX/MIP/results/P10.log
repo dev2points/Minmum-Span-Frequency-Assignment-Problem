@@ -1,0 +1,63 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	600 seconds
+[runlim] space limit:		7759 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		mip.py
+[runlim] argv[3]:		P10
+[runlim] start:			Mon Mar 23 00:19:45 2026
+[runlim] main pid:		44968
+Reading dataset from data/P10.txt...
+Greedy span: 308 (309-1)
+--------------------------------
+Starting CPLEX solver with Initial UB = 309...
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Read_DataCheck                          1
+Legacy callback                                  i
+Tried aggregator 1 time.
+MIP Presolve eliminated 179311 rows and 0 columns.
+MIP Presolve modified 33362 coefficients.
+Reduced MIP has 50413 rows, 16996 columns, and 274019 nonzeros.
+Reduced MIP has 16995 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.35 sec. (377.25 ticks)
+[runlim] sample:		9.8 time, 10.0 real, 373.7 MB
+Probing time = 0.44 sec. (56.61 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 20202 rows and 1789 columns.
+MIP Presolve modified 760932 coefficients.
+Reduced MIP has 30211 rows, 15207 columns, and 206256 nonzeros.
+Reduced MIP has 15207 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 1.09 sec. (1662.60 ticks)
+Probing time = 0.09 sec. (3.57 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 30211 rows, 15207 columns, and 206256 nonzeros.
+Reduced MIP has 15207 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.14 sec. (171.41 ticks)
+Probing time = 0.03 sec. (4.13 ticks)
+Clique table members: 30158.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 12 threads.
+
+Root node processing (before b&c):
+  Real time             =    3.29 sec. (4094.72 ticks)
+Parallel b&c, 12 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    3.29 sec. (4094.72 ticks)
+--------------------------------
+Optimal span found: 308 (309-1)
+Total time taken: 12.39s
+CPLEX solution is valid.
+[runlim] end:			Mon Mar 23 00:19:57 2026
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			12.94 seconds
+[runlim] time:			16.80 seconds
+[runlim] space:			1059.1 MB
+[runlim] samples:		129

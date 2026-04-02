@@ -1,0 +1,162 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	600 seconds
+[runlim] space limit:		7759 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		one_vertex.py
+[runlim] argv[3]:		P5
+[runlim] start:			Thu Mar 26 11:13:04 2026
+[runlim] main pid:		3428
+Reading dataset from P5.txt...
+Greedy span: 247 (248-1)
+Greedy solution is valid.
+--------------------------------
+Trying with UB = 247...
+[runlim] sample:		10.2 time, 10.6 real, 87.6 MB
+Span: 246 (247-1)
+Time taken: 10.36s
+Solution is valid.
+--------------------------------
+Trying with UB = 246...
+Span: 245 (246-1)
+Time taken: 10.43s
+Solution is valid.
+--------------------------------
+Trying with UB = 245...
+Span: 244 (245-1)
+Time taken: 10.49s
+Solution is valid.
+--------------------------------
+Trying with UB = 244...
+Span: 243 (244-1)
+Time taken: 10.55s
+Solution is valid.
+--------------------------------
+Trying with UB = 243...
+Span: 242 (243-1)
+Time taken: 12.02s
+Solution is valid.
+--------------------------------
+Trying with UB = 242...
+Span: 241 (242-1)
+Time taken: 12.45s
+Solution is valid.
+--------------------------------
+Trying with UB = 241...
+Span: 240 (241-1)
+Time taken: 12.49s
+Solution is valid.
+--------------------------------
+Trying with UB = 240...
+Span: 239 (240-1)
+Time taken: 12.57s
+Solution is valid.
+--------------------------------
+Trying with UB = 239...
+Span: 238 (239-1)
+Time taken: 12.63s
+Solution is valid.
+--------------------------------
+Trying with UB = 238...
+Span: 237 (238-1)
+Time taken: 12.67s
+Solution is valid.
+--------------------------------
+Trying with UB = 237...
+Span: 236 (237-1)
+Time taken: 12.72s
+Solution is valid.
+--------------------------------
+Trying with UB = 236...
+Span: 235 (236-1)
+Time taken: 12.75s
+Solution is valid.
+--------------------------------
+Trying with UB = 235...
+Span: 234 (235-1)
+Time taken: 12.79s
+Solution is valid.
+--------------------------------
+Trying with UB = 234...
+Span: 233 (234-1)
+Time taken: 13.10s
+Solution is valid.
+--------------------------------
+Trying with UB = 233...
+Span: 232 (233-1)
+Time taken: 13.14s
+Solution is valid.
+--------------------------------
+Trying with UB = 232...
+Span: 231 (232-1)
+Time taken: 13.17s
+Solution is valid.
+--------------------------------
+Trying with UB = 231...
+Span: 230 (231-1)
+Time taken: 13.49s
+Solution is valid.
+--------------------------------
+Trying with UB = 230...
+Span: 229 (230-1)
+Time taken: 13.54s
+Solution is valid.
+--------------------------------
+Trying with UB = 229...
+Span: 228 (229-1)
+Time taken: 13.58s
+Solution is valid.
+--------------------------------
+Trying with UB = 228...
+Span: 227 (228-1)
+Time taken: 13.93s
+Solution is valid.
+--------------------------------
+Trying with UB = 227...
+Span: 226 (227-1)
+Time taken: 14.21s
+Solution is valid.
+--------------------------------
+Trying with UB = 226...
+Span: 225 (226-1)
+Time taken: 14.33s
+Solution is valid.
+--------------------------------
+Trying with UB = 225...
+Span: 224 (225-1)
+Time taken: 14.38s
+Solution is valid.
+--------------------------------
+Trying with UB = 224...
+Span: 223 (224-1)
+Time taken: 14.44s
+Solution is valid.
+--------------------------------
+Trying with UB = 223...
+Span: 222 (223-1)
+Time taken: 14.91s
+Solution is valid.
+--------------------------------
+Trying with UB = 222...
+Span: 221 (222-1)
+Time taken: 15.10s
+Solution is valid.
+--------------------------------
+Trying with UB = 221...
+Span: 220 (221-1)
+Time taken: 15.36s
+Solution is valid.
+--------------------------------
+Trying with UB = 220...
+No solution found.
+Optimal span found: 220
+Time taken: 15.43s
+[runlim] end:			Thu Mar 26 11:13:20 2026
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			16.17 seconds
+[runlim] time:			15.65 seconds
+[runlim] space:			87.6 MB
+[runlim] samples:		155

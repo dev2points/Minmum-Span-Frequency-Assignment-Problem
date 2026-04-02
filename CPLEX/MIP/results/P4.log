@@ -1,0 +1,129 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	600 seconds
+[runlim] space limit:		7759 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		mip.py
+[runlim] argv[3]:		P4
+[runlim] start:			Sun Mar 22 23:50:12 2026
+[runlim] main pid:		34549
+Reading dataset from data/P4.txt...
+Greedy span: 535 (536-1)
+--------------------------------
+Starting CPLEX solver with Initial UB = 536...
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Read_DataCheck                          1
+Legacy callback                                  i
+Tried aggregator 1 time.
+MIP Presolve eliminated 146388 rows and 0 columns.
+MIP Presolve modified 21387 coefficients.
+Reduced MIP has 32665 rows, 11257 columns, and 185557 nonzeros.
+Reduced MIP has 11256 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.27 sec. (300.94 ticks)
+Probing time = 0.22 sec. (39.26 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 32665 rows, 11257 columns, and 185557 nonzeros.
+Reduced MIP has 11256 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.12 sec. (158.27 ticks)
+Probing time = 0.21 sec. (35.26 ticks)
+Clique table members: 21387.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 12 threads.
+[runlim] sample:		22.4 time, 9.5 real, 617.1 MB
+Root relaxation solution time = 2.89 sec. (2133.82 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0      133.6244  1586                    133.6244       19         
+[runlim] sample:		53.8 time, 19.5 real, 689.3 MB
+[runlim] sample:		73.2 time, 29.5 real, 689.3 MB
+[runlim] sample:		92.7 time, 39.5 real, 689.3 MB
+[runlim] sample:		112.2 time, 49.5 real, 689.3 MB
+[runlim] sample:		132.1 time, 59.5 real, 689.3 MB
+[runlim] sample:		153.6 time, 69.5 real, 689.3 MB
+[runlim] sample:		173.6 time, 78.9 real, 689.4 MB
+[runlim] sample:		193.4 time, 88.9 real, 689.4 MB
+[runlim] sample:		212.8 time, 98.9 real, 689.4 MB
+[runlim] sample:		232.2 time, 108.9 real, 689.4 MB
+[runlim] sample:		252.4 time, 118.9 real, 689.4 MB
+[runlim] sample:		272.5 time, 128.9 real, 689.4 MB
+[runlim] sample:		292.5 time, 138.9 real, 689.4 MB
+[runlim] sample:		312.5 time, 148.9 real, 689.4 MB
+[runlim] sample:		332.5 time, 158.9 real, 689.4 MB
+[runlim] sample:		352.5 time, 168.4 real, 689.4 MB
+[runlim] sample:		372.5 time, 178.4 real, 689.4 MB
+*     0+    0                          536.0000      133.6244            75.07%
+      0     0      219.0102  1663      536.0000     Cuts: 464   217829   59.14%
+[runlim] sample:		392.1 time, 188.4 real, 702.8 MB
+[runlim] sample:		411.4 time, 198.4 real, 703.4 MB
+[runlim] sample:		431.1 time, 208.4 real, 703.4 MB
+[runlim] sample:		451.4 time, 217.8 real, 703.6 MB
+*     0+    0                          535.0000      219.0102            59.06%
+      0     0      228.7058  1768      535.0000     Cuts: 286   260361   57.25%
+[runlim] sample:		470.8 time, 227.8 real, 705.4 MB
+[runlim] sample:		490.1 time, 237.8 real, 705.9 MB
+[runlim] sample:		509.9 time, 247.0 real, 705.9 MB
+[runlim] sample:		529.8 time, 257.0 real, 705.9 MB
+[runlim] sample:		539.9 time, 267.0 real, 705.9 MB
+[runlim] sample:		549.7 time, 277.1 real, 705.9 MB
+[runlim] sample:		559.6 time, 287.0 real, 705.9 MB
+[runlim] sample:		569.5 time, 297.1 real, 705.9 MB
+[runlim] sample:		579.4 time, 307.0 real, 705.9 MB
+[runlim] sample:		589.3 time, 316.5 real, 705.9 MB
+[runlim] sample:		599.1 time, 326.5 real, 705.9 MB
+[runlim] sample:		609.0 time, 336.5 real, 705.9 MB
+[runlim] sample:		618.8 time, 345.9 real, 705.9 MB
+[runlim] sample:		628.6 time, 355.9 real, 705.9 MB
+[runlim] sample:		638.4 time, 365.9 real, 705.9 MB
+[runlim] sample:		648.3 time, 375.4 real, 705.9 MB
+[runlim] sample:		658.1 time, 385.4 real, 705.9 MB
+[runlim] sample:		667.9 time, 395.4 real, 705.9 MB
+[runlim] sample:		677.8 time, 405.4 real, 705.9 MB
+[runlim] sample:		687.6 time, 414.8 real, 705.9 MB
+[runlim] sample:		697.4 time, 424.8 real, 705.9 MB
+[runlim] sample:		707.2 time, 434.8 real, 705.9 MB
+[runlim] sample:		717.1 time, 444.2 real, 705.9 MB
+[runlim] sample:		726.9 time, 454.2 real, 705.9 MB
+[runlim] sample:		736.7 time, 464.2 real, 705.9 MB
+[runlim] sample:		746.5 time, 473.7 real, 705.9 MB
+[runlim] sample:		756.4 time, 483.7 real, 705.9 MB
+[runlim] sample:		766.2 time, 493.7 real, 705.9 MB
+[runlim] sample:		776.1 time, 503.2 real, 705.9 MB
+[runlim] sample:		785.9 time, 513.2 real, 705.9 MB
+[runlim] sample:		795.6 time, 523.2 real, 705.9 MB
+[runlim] sample:		805.5 time, 533.2 real, 705.9 MB
+[runlim] sample:		815.4 time, 542.6 real, 705.9 MB
+*     0+    0                          533.0000      228.7058            57.09%
+      0     0        cutoff            533.0000      533.0000   653102    0.00%
+Elapsed time = 537.22 sec. (612570.35 ticks, tree = 0.01 MB, solutions = 3)
+
+Clique cuts applied:  127
+Implied bound cuts applied:  156
+Zero-half cuts applied:  164
+Lift and project cuts applied:  2
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =  537.22 sec. (612571.51 ticks)
+Parallel b&c, 12 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  537.22 sec. (612571.51 ticks)
+--------------------------------
+Optimal span found: 532 (533-1)
+Total time taken: 551.31s
+CPLEX solution is valid.
+[runlim] end:			Sun Mar 22 23:59:16 2026
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			544.31 seconds
+[runlim] time:			817.02 seconds
+[runlim] space:			705.9 MB
+[runlim] samples:		5517

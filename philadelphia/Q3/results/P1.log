@@ -1,0 +1,26 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	600 seconds
+[runlim] space limit:		7759 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		one_vertex.py
+[runlim] argv[3]:		P1
+[runlim] start:			Thu Apr  2 12:06:53 2026
+[runlim] main pid:		1498
+Reading dataset from P1.txt...
+Greedy span: 532 (533-1)
+Greedy solution is valid.
+--------------------------------
+Trying with UB = 532...
+No solution found.
+Optimal span found: 532
+Time taken: 6.98s
+[runlim] end:			Thu Apr  2 12:07:01 2026
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			8.01 seconds
+[runlim] time:			7.01 seconds
+[runlim] space:			209.7 MB
+[runlim] samples:		70

@@ -1,0 +1,68 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	600 seconds
+[runlim] space limit:		7759 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		mip.py
+[runlim] argv[3]:		P9
+[runlim] start:			Mon Mar 23 00:19:44 2026
+[runlim] main pid:		44930
+Reading dataset from data/P9.txt...
+Greedy span: 72 (73-1)
+--------------------------------
+Starting CPLEX solver with Initial UB = 73...
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Read_DataCheck                          1
+Legacy callback                                  i
+Found incumbent of value 73.000000 after 0.00 sec. (0.87 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 8395 rows and 0 columns.
+MIP Presolve modified 1387 coefficients.
+Reduced MIP has 5038 rows, 1826 columns, and 17860 nonzeros.
+Reduced MIP has 1825 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (18.74 ticks)
+Probing time = 0.02 sec. (6.99 ticks)
+Cover probing fixed 0 vars, tightened 8 bounds.
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 275 rows and 0 columns.
+MIP Presolve modified 3100 coefficients.
+Reduced MIP has 4763 rows, 1826 columns, and 17310 nonzeros.
+Reduced MIP has 1825 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (12.97 ticks)
+Probing time = 0.01 sec. (6.53 ticks)
+Clique table members: 3187.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 12 threads.
+Root relaxation solution time = 0.19 sec. (214.81 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           73.0000       11.0000            84.93%
+      0     0       18.7500   569       73.0000       18.7500     2240   74.32%
+      0     0        cutoff             73.0000                   2247    0.00%
+Elapsed time = 0.30 sec. (303.64 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.30 sec. (303.76 ticks)
+Parallel b&c, 12 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.30 sec. (303.76 ticks)
+--------------------------------
+Optimal span found: 72 (73-1)
+Total time taken: 0.85s
+CPLEX solution is valid.
+[runlim] end:			Mon Mar 23 00:19:45 2026
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			1.03 seconds
+[runlim] time:			1.63 seconds
+[runlim] space:			110.7 MB
+[runlim] samples:		9
